@@ -1,0 +1,7476 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "purchasedTickets": []
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "user123",
+      "role": "user",
+      "purchasedTickets": []
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "user123",
+      "role": "user",
+      "purchasedTickets": []
+    },
+    {
+      "id": "a6b8",
+      "username": "выаыва",
+      "password": "admin123",
+      "role": "user",
+      "purchasedTickets": []
+    },
+    {
+      "id": "3d63",
+      "username": "тестовый пользователь с массивом",
+      "password": "123321",
+      "role": "user",
+      "purchasedTickets": [
+        {
+          "id": "v1c6y20vx",
+          "price": 4600,
+          "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+          "info": {
+            "stops": [],
+            "origin": "HKT",
+            "dateEnd": 1659322801304,
+            "duration": 0,
+            "dateStart": 1659322801304,
+            "destination": "HKG"
+          }
+        },
+        {
+          "id": "akx7w9xs1",
+          "price": 18500,
+          "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+          "info": {
+            "stops": [],
+            "origin": "HKT",
+            "dateEnd": 1655868098855,
+            "duration": 0,
+            "dateStart": 1655868098855,
+            "destination": "EKT"
+          }
+        }
+      ]
+    }
+  ],
+  "companies": [
+    {
+      "id": "7dc12d0b-ce42-48a0-8673-0dad4d698764",
+      "logo": "XiamenAir Logo.png",
+      "name": "XiamenAir"
+    },
+    {
+      "id": "cddfa038-823b-43b1-b18d-395731881077",
+      "logo": "S7 Logo.png",
+      "name": "S7 Airlines"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "9cf597f2-7bf1-4d67-9e04-9020ac26a9f8",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1659324614277,
+        "duration": 11520000,
+        "dateStart": 1659313094277,
+        "destination": "JNB"
+      },
+      "price": 4100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "76f847d3-63a0-4094-bdde-35647b000630",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1658390132461,
+        "duration": 10320000,
+        "dateStart": 1658379812461,
+        "destination": "JNB"
+      },
+      "price": 31300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "5048b977-b9cd-475f-8bfe-83e2448c1e2f",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1658022170534,
+        "duration": 14100000,
+        "dateStart": 1658008070534,
+        "destination": "EKT"
+      },
+      "price": 6700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "532375bb-2557-4687-a61b-403c0e0d7ba8",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1663493065884,
+        "duration": 8880000,
+        "dateStart": 1663484185884,
+        "destination": "ARH"
+      },
+      "price": 57400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "958aecea-d0ca-4128-b219-29d1806b0ce5",
+      "info": {
+        "stops": [],
+        "origin": "MOW",
+        "dateEnd": 1657435775078,
+        "duration": 1860000,
+        "dateStart": 1657433915078,
+        "destination": "ARH"
+      },
+      "price": 12300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9f5ead8f-fed3-46be-beee-a4cbb8809111",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1659079854875,
+        "duration": 16980000,
+        "dateStart": 1659062874875,
+        "destination": "EKT"
+      },
+      "price": 68900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cae3f047-a882-4f1c-a71a-179ba1896188",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1657773530001,
+        "duration": 2640000,
+        "dateStart": 1657770890001,
+        "destination": "ARH"
+      },
+      "price": 20700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5bf68e02-0429-48a8-a51b-c6022908baf6",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1663122711316,
+        "duration": 840000,
+        "dateStart": 1663121871316,
+        "destination": "KRS"
+      },
+      "price": 21300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "9885af15-fd79-4c66-9ddb-51c2de9f1987",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1663835905467,
+        "duration": 12120000,
+        "dateStart": 1663823785467,
+        "destination": "LOS"
+      },
+      "price": 4700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5f49e1cf-c17c-4c07-9c82-4bcdbe4f3178",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1658230576110,
+        "duration": 24120000,
+        "dateStart": 1658206456110,
+        "destination": "ARH"
+      },
+      "price": 52400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b6bea38e-d990-43bd-b712-9dd79c735db0",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1657011088012,
+        "duration": 22140000,
+        "dateStart": 1656988948012,
+        "destination": "EKV"
+      },
+      "price": 77700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b2ddb968-b25d-4eec-92bc-b2e4ae494a71",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1655466821036,
+        "duration": 23580000,
+        "dateStart": 1655443241036,
+        "destination": "LOS"
+      },
+      "price": 49900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "138baec8-4df7-42bf-94e1-b0fff3aeb075",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1664848298894,
+        "duration": 9060000,
+        "dateStart": 1664839238894,
+        "destination": "JNB"
+      },
+      "price": 28600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "933bdcc5-b6e4-48fa-96b7-8bbe89a442da",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1660521003291,
+        "duration": 7680000,
+        "dateStart": 1660513323291,
+        "destination": "LOS"
+      },
+      "price": 11400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0bec0861-8ff1-4086-b88b-64e171fe658d",
+      "info": {
+        "stops": [
+          "HKT",
+          "JNB"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1660967479764,
+        "duration": 9120000,
+        "dateStart": 1660958359764,
+        "destination": "HKG"
+      },
+      "price": 27000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2df15e25-aed8-4643-9c31-dc11cde8f803",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1658354648703,
+        "duration": 1500000,
+        "dateStart": 1658353148703,
+        "destination": "ARH"
+      },
+      "price": 8300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "fce799d6-53bc-4e39-8a33-126003979ad3",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1665050682746,
+        "duration": 24420000,
+        "dateStart": 1665026262746,
+        "destination": "SRT"
+      },
+      "price": 19100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "bb7d0aa3-e509-492f-b98f-49530c8555ae",
+      "info": {
+        "stops": [
+          "PTB",
+          "KRS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663654418949,
+        "duration": 24180000,
+        "dateStart": 1663630238949,
+        "destination": "ARH"
+      },
+      "price": 6700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0e333e66-9d94-49e3-9986-f21c879cbf37",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1656034679890,
+        "duration": 12960000,
+        "dateStart": 1656021719890,
+        "destination": "SRT"
+      },
+      "price": 19200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "678bb839-054f-40e4-9774-f756755ca029",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1658387300204,
+        "duration": 21960000,
+        "dateStart": 1658365340204,
+        "destination": "ARH"
+      },
+      "price": 20300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b13f02a0-30a6-43eb-8d3a-5b587ddd2291",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1662100930304,
+        "duration": 2640000,
+        "dateStart": 1662098290304,
+        "destination": "HKT"
+      },
+      "price": 35400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "8dfce8e8-211a-4b8c-ba5b-306badcc56fa",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1660807863513,
+        "duration": 7380000,
+        "dateStart": 1660800483513,
+        "destination": "SRT"
+      },
+      "price": 24600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3e62c7fc-0e3f-401b-9637-5936131b4aac",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1664267295163,
+        "duration": 11520000,
+        "dateStart": 1664255775163,
+        "destination": "ARH"
+      },
+      "price": 47300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "80164718-8d2c-4516-b701-5d1bf9f890ee",
+      "info": {
+        "stops": [
+          "HKG",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1664715509029,
+        "duration": 22920000,
+        "dateStart": 1664692589029,
+        "destination": "SRT"
+      },
+      "price": 9400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b18b2ed2-6bae-4860-8399-d56511e7f255",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1657603475223,
+        "duration": 4620000,
+        "dateStart": 1657598855223,
+        "destination": "EKV"
+      },
+      "price": 22000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "30743f1b-1dcb-4512-850e-10e2adf0073c",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1656392221212,
+        "duration": 8700000,
+        "dateStart": 1656383521212,
+        "destination": "PTB"
+      },
+      "price": 30600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e6abcfb6-5649-4825-8cf9-e6bd3f81fbd6",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657600855471,
+        "duration": 10800000,
+        "dateStart": 1657590055471,
+        "destination": "MOW"
+      },
+      "price": 10100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "cca44687-b78b-43e6-a3f9-53739a6843ad",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1663314107703,
+        "duration": 12360000,
+        "dateStart": 1663301747703,
+        "destination": "LOS"
+      },
+      "price": 29100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e6599f75-af49-443f-82b4-b6988285d670",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1659058807691,
+        "duration": 5040000,
+        "dateStart": 1659053767691,
+        "destination": "PTB"
+      },
+      "price": 3800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e281fa3a-b83c-4977-8e91-b342cf9816e9",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1663561162577,
+        "duration": 10320000,
+        "dateStart": 1663550842577,
+        "destination": "TRN"
+      },
+      "price": 25800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "48876c4d-a85c-4d4b-8bf5-3e8f96bb1f88",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1657767366187,
+        "duration": 8820000,
+        "dateStart": 1657758546187,
+        "destination": "EKT"
+      },
+      "price": 5700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ba8258ca-8149-4813-a236-de139f42cf67",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1659356959009,
+        "duration": 34320000,
+        "dateStart": 1659322639009,
+        "destination": "KRS"
+      },
+      "price": 7400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "586a5375-ab24-46ca-8b1c-9551a5fdbda6",
+      "info": {
+        "stops": [
+          "ARH"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659333311048,
+        "duration": 13080000,
+        "dateStart": 1659320231048,
+        "destination": "HKT"
+      },
+      "price": 24800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "16f77f4f-23ae-4a35-bbea-bef5229a2d76",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "JNB"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1655472356912,
+        "duration": 34620000,
+        "dateStart": 1655437736912,
+        "destination": "ARH"
+      },
+      "price": 8300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b52d4beb-e356-4f67-bf72-8c8c7fa10283",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1661408347883,
+        "duration": 1560000,
+        "dateStart": 1661406787883,
+        "destination": "EKT"
+      },
+      "price": 55000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "736ca776-09c3-406d-b7cd-e606f8792b8c",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1663665822007,
+        "duration": 24600000,
+        "dateStart": 1663641222007,
+        "destination": "EKT"
+      },
+      "price": 24200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "8fff9f80-f510-4d9c-b825-fe5431bbbeea",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1662042377716,
+        "duration": 35340000,
+        "dateStart": 1662007037716,
+        "destination": "KRS"
+      },
+      "price": 49900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "750d50a5-0115-4ed0-9c99-067cc3e328fe",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663309573200,
+        "duration": 9780000,
+        "dateStart": 1663299793200,
+        "destination": "MOW"
+      },
+      "price": 8400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9c77d3bc-adbb-4786-96da-0b79972a1e47",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1663801795432,
+        "duration": 2580000,
+        "dateStart": 1663799215432,
+        "destination": "ARH"
+      },
+      "price": 57000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7f1899e9-b809-4181-b5e8-51dfe0dbfcb8",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1661565648190,
+        "duration": 1560000,
+        "dateStart": 1661564088190,
+        "destination": "HKT"
+      },
+      "price": 64200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "cc5e82f3-7f43-4bb3-8b4c-79122b0d6578",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1661682618190,
+        "duration": 34680000,
+        "dateStart": 1661647938190,
+        "destination": "EKV"
+      },
+      "price": 20700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "133b5c7d-1504-4bf5-908f-77c4db938930",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662621646071,
+        "duration": 12060000,
+        "dateStart": 1662609586071,
+        "destination": "JNB"
+      },
+      "price": 46000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e5b108f2-a520-40f2-b59d-c522797daaa4",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1663466371703,
+        "duration": 13080000,
+        "dateStart": 1663453291703,
+        "destination": "EKV"
+      },
+      "price": 50700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d67223f4-de74-4f05-b8a2-55991f0bca29",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1659837430250,
+        "duration": 8580000,
+        "dateStart": 1659828850250,
+        "destination": "MOW"
+      },
+      "price": 14400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "522b6074-318c-4e8e-894f-bad0ad1b60d2",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1663841529486,
+        "duration": 23100000,
+        "dateStart": 1663818429486,
+        "destination": "HKT"
+      },
+      "price": 64900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ec0b9af2-3c08-4397-99a7-cd8071fe51b6",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1656651207883,
+        "duration": 8520000,
+        "dateStart": 1656642687883,
+        "destination": "EKV"
+      },
+      "price": 46500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "64b1b910-bbe2-44c8-8014-d65faf16d4d8",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1657152256304,
+        "duration": 8700000,
+        "dateStart": 1657143556304,
+        "destination": "KRS"
+      },
+      "price": 26700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0cb973a9-6353-4b38-8bb8-7bf6eff75907",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1657351531723,
+        "duration": 32820000,
+        "dateStart": 1657318711723,
+        "destination": "JNB"
+      },
+      "price": 35300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2774a260-c4ad-4e64-b953-ba36d3f2c1f3",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1663820581589,
+        "duration": 23520000,
+        "dateStart": 1663797061589,
+        "destination": "MOW"
+      },
+      "price": 1200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9b9d9cdb-2273-4264-ae2f-b920a41bf9c4",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1662366228081,
+        "duration": 12000000,
+        "dateStart": 1662354228081,
+        "destination": "EKT"
+      },
+      "price": 60700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "abc8b42a-5e8b-40f1-81b8-724c582f8873",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1664778290629,
+        "duration": 9720000,
+        "dateStart": 1664768570629,
+        "destination": "PTB"
+      },
+      "price": 51100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "164c6901-5b2e-4261-8c3f-17adbc3adad9",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1661829588893,
+        "duration": 2580000,
+        "dateStart": 1661827008893,
+        "destination": "HKG"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c6b8d7ef-6079-4786-8fe6-a8ba18f7457d",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655023756962,
+        "duration": 5820000,
+        "dateStart": 1655017936962,
+        "destination": "EKV"
+      },
+      "price": 10600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ee31fb19-71b9-4a4a-a167-9d592ea47afb",
+      "info": {
+        "stops": [
+          "ARH",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1656999635853,
+        "duration": 13740000,
+        "dateStart": 1656985895853,
+        "destination": "HKG"
+      },
+      "price": 9600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "1c3adb48-a98e-4e2e-9672-9a4b70747e8c",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1659693720688,
+        "duration": 24180000,
+        "dateStart": 1659669540688,
+        "destination": "JNB"
+      },
+      "price": 4700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "77ce825e-913a-45bf-977a-8d57098da44f",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1665300631540,
+        "duration": 9960000,
+        "dateStart": 1665290671540,
+        "destination": "EKV"
+      },
+      "price": 60600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3dba7598-061e-4c62-a384-75e532e81097",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658809040213,
+        "duration": 7500000,
+        "dateStart": 1658801540213,
+        "destination": "MOW"
+      },
+      "price": 22200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7326cb29-e830-43a5-9469-7ffd4e7f81f8",
+      "info": {
+        "stops": [
+          "ARH"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1663835064607,
+        "duration": 13860000,
+        "dateStart": 1663821204607,
+        "destination": "MOW"
+      },
+      "price": 73200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "bdc4b276-5ab0-45c3-b372-ddbc3dbfa837",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG",
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1660547459729,
+        "duration": 35100000,
+        "dateStart": 1660512359729,
+        "destination": "KRS"
+      },
+      "price": 62600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e95f70eb-8a9e-44fa-af05-1a6850bf2a9a",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1655615134634,
+        "duration": 11400000,
+        "dateStart": 1655603734634,
+        "destination": "EKT"
+      },
+      "price": 90800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5b258548-5495-48a2-b994-3f19d129200e",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1657190104387,
+        "duration": 24900000,
+        "dateStart": 1657165204387,
+        "destination": "EKV"
+      },
+      "price": 75200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "42410228-0424-4f98-b5aa-3b8de0742a57",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659328508894,
+        "duration": 24300000,
+        "dateStart": 1659304208894,
+        "destination": "PTB"
+      },
+      "price": 21400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "59a36665-fb81-4a25-9cef-4eb3d6da54a1",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1656821907209,
+        "duration": 13140000,
+        "dateStart": 1656808767209,
+        "destination": "MOW"
+      },
+      "price": 25200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9ced1e30-4d13-4132-a4c6-f47d3e5e342c",
+      "info": {
+        "stops": [
+          "HKT",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658136321417,
+        "duration": 14220000,
+        "dateStart": 1658122101417,
+        "destination": "HKG"
+      },
+      "price": 16000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7fbb8278-b89e-4938-9ede-ce6000406539",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660004425697,
+        "duration": 7740000,
+        "dateStart": 1659996685697,
+        "destination": "LOS"
+      },
+      "price": 47200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "85806fdd-1a79-45b0-99a7-5b9937dcece9",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1659157171448,
+        "duration": 24960000,
+        "dateStart": 1659132211448,
+        "destination": "HKG"
+      },
+      "price": 44800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "974f55b0-a03f-4ece-9ebc-bb4bfc27b33c",
+      "info": {
+        "stops": [
+          "ARH"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655427244233,
+        "duration": 8940000,
+        "dateStart": 1655418304233,
+        "destination": "JNB"
+      },
+      "price": 10300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "88b46877-2db7-4e8f-a52c-2a482968d59f",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1656777035626,
+        "duration": 34440000,
+        "dateStart": 1656742595626,
+        "destination": "JNB"
+      },
+      "price": 8800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2f382213-7173-46a4-8150-c6b0045ff1bc",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1659798376258,
+        "duration": 33360000,
+        "dateStart": 1659765016258,
+        "destination": "MOW"
+      },
+      "price": 82600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d56e2bc3-bc63-41e1-a653-3939401beeb7",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1660265486904,
+        "duration": 12060000,
+        "dateStart": 1660253426904,
+        "destination": "TRN"
+      },
+      "price": 7800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ce214f44-26ea-443c-b6f3-783ef68591e4",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1659862521997,
+        "duration": 8940000,
+        "dateStart": 1659853581997,
+        "destination": "MOW"
+      },
+      "price": 19100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "652dea29-41a2-43b0-affe-47410a54ca7e",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1658299698187,
+        "duration": 11700000,
+        "dateStart": 1658287998187,
+        "destination": "EKT"
+      },
+      "price": 39700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8630b728-311a-4906-97ee-0cf82fbeebb2",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655263131046,
+        "duration": 12000000,
+        "dateStart": 1655251131046,
+        "destination": "ARH"
+      },
+      "price": 47200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "4fbc06cd-09c1-475a-b6e2-90a3db1478f9",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1660346850824,
+        "duration": 1140000,
+        "dateStart": 1660345710824,
+        "destination": "KRS"
+      },
+      "price": 2500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "93e27d6c-4c6a-4956-b649-25f748a1140c",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1661583517051,
+        "duration": 22020000,
+        "dateStart": 1661561497051,
+        "destination": "EKV"
+      },
+      "price": 10900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "8eac1821-def4-4966-acd1-16b1e6ea1333",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1661253882958,
+        "duration": 22080000,
+        "dateStart": 1661231802958,
+        "destination": "EKV"
+      },
+      "price": 14300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2953c5e0-5705-4369-bea8-78079280de79",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1658131155607,
+        "duration": 6060000,
+        "dateStart": 1658125095607,
+        "destination": "TRN"
+      },
+      "price": 4800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2f987bac-63a2-49b3-8542-064893e3164a",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1665406185750,
+        "duration": 34200000,
+        "dateStart": 1665371985750,
+        "destination": "KRS"
+      },
+      "price": 9100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cd115dd8-c66a-4545-895e-d51404a8b5f5",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1657708612097,
+        "duration": 22560000,
+        "dateStart": 1657686052097,
+        "destination": "JNB"
+      },
+      "price": 48700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ec049609-4ec9-4d03-8ce8-4c6e85459921",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1656048575602,
+        "duration": 5940000,
+        "dateStart": 1656042635602,
+        "destination": "KRS"
+      },
+      "price": 14100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ee9b8933-27c8-4d2d-8298-968092f39268",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1663682652258,
+        "duration": 32400000,
+        "dateStart": 1663650252258,
+        "destination": "JNB"
+      },
+      "price": 5500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "4867512f-3c77-4480-bca0-88597173b9af",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1661130686447,
+        "duration": 13320000,
+        "dateStart": 1661117366447,
+        "destination": "MOW"
+      },
+      "price": 24600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "5d51c3e9-fa42-4136-bfec-1efb42deeb30",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658296882442,
+        "duration": 9300000,
+        "dateStart": 1658287582442,
+        "destination": "JNB"
+      },
+      "price": 79800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ace39bdd-85a5-4834-b4e8-be28f87c7ad8",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1655700495467,
+        "duration": 0,
+        "dateStart": 1655700495467,
+        "destination": "KRS"
+      },
+      "price": 58300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e6afc4b2-5c23-4179-bdae-41d187aa9c63",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1663470778544,
+        "duration": 8580000,
+        "dateStart": 1663462198544,
+        "destination": "JNB"
+      },
+      "price": 87600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "bf6838b6-35e3-4eba-b07b-830bef63837a",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1659411242068,
+        "duration": 15120000,
+        "dateStart": 1659396122068,
+        "destination": "MOW"
+      },
+      "price": 5200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "5897694e-5d4e-4923-9b6b-7b82dfcad5b4",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657693640790,
+        "duration": 7800000,
+        "dateStart": 1657685840790,
+        "destination": "KRS"
+      },
+      "price": 3700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "fd7ee7ae-9d38-4f91-a6db-663f77769d7e",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656200708018,
+        "duration": 4380000,
+        "dateStart": 1656196328018,
+        "destination": "JNB"
+      },
+      "price": 4600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "955d6c7f-a4d5-4264-be29-c1954cbec837",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1664704164094,
+        "duration": 35040000,
+        "dateStart": 1664669124094,
+        "destination": "EKT"
+      },
+      "price": 6400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "595197e7-a8f4-4971-8356-95b73ef28879",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1655436602819,
+        "duration": 60000,
+        "dateStart": 1655436542819,
+        "destination": "PTB"
+      },
+      "price": 37100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e633975d-b7f4-45f9-a89f-ce57a476dfde",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1654990658419,
+        "duration": 3300000,
+        "dateStart": 1654987358419,
+        "destination": "HKG"
+      },
+      "price": 45600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "11125765-c7df-4a85-9f08-96f309ca1e08",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1654909638446,
+        "duration": 5700000,
+        "dateStart": 1654903938446,
+        "destination": "KRS"
+      },
+      "price": 22400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e41f67e3-fa66-44fa-a275-7f0964931efb",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1658209093110,
+        "duration": 1860000,
+        "dateStart": 1658207233110,
+        "destination": "SRT"
+      },
+      "price": 25700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8e9bf959-9261-47e7-8aaa-4892902d67de",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1661339135560,
+        "duration": 23100000,
+        "dateStart": 1661316035560,
+        "destination": "EKT"
+      },
+      "price": 44200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "87ec3784-b2ad-4732-a805-58d2a0700fdb",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1663743027408,
+        "duration": 5160000,
+        "dateStart": 1663737867408,
+        "destination": "JNB"
+      },
+      "price": 58200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "9ca53ebe-a4ea-4edd-a03e-7ad6820f1217",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1660025858950,
+        "duration": 600000,
+        "dateStart": 1660025258950,
+        "destination": "SRT"
+      },
+      "price": 31700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f62cbc81-afe9-4090-bc49-27ca0d8bc3dc",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1665205026992,
+        "duration": 7860000,
+        "dateStart": 1665197166992,
+        "destination": "LOS"
+      },
+      "price": 22100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "41b6f2f5-931c-44d1-abdd-5f33963b00ab",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1660898823795,
+        "duration": 11640000,
+        "dateStart": 1660887183795,
+        "destination": "EKT"
+      },
+      "price": 22500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "717b45d5-b84f-4658-8fe7-ed8fef44e537",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1659417323801,
+        "duration": 21600000,
+        "dateStart": 1659395723801,
+        "destination": "TRN"
+      },
+      "price": 10100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "869c5588-b027-4ce1-b644-1bb622b0fae6",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1660273069544,
+        "duration": 540000,
+        "dateStart": 1660272529544,
+        "destination": "TRN"
+      },
+      "price": 45100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "8412b0c6-0e8f-4db5-9dbd-841b89f9365d",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1655365949681,
+        "duration": 9060000,
+        "dateStart": 1655356889681,
+        "destination": "HKT"
+      },
+      "price": 1900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b3c672f2-322d-48f6-8432-0c8b7b422647",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1661338841176,
+        "duration": 15180000,
+        "dateStart": 1661323661176,
+        "destination": "LOS"
+      },
+      "price": 17600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7535bd91-f0d9-4df1-9f08-843fe1befdd2",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1658029937282,
+        "duration": 9360000,
+        "dateStart": 1658020577282,
+        "destination": "ARH"
+      },
+      "price": 33500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3a4f661a-0e77-4a60-b86c-598958a8e4f5",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1661298486412,
+        "duration": 660000,
+        "dateStart": 1661297826412,
+        "destination": "JNB"
+      },
+      "price": 14900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2c8adc71-6437-4edb-b652-8b0decfce9d9",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1665300354749,
+        "duration": 10260000,
+        "dateStart": 1665290094749,
+        "destination": "TRN"
+      },
+      "price": 40400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "91551e8d-2ad7-47c7-a682-206b3c70ce36",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1660629425377,
+        "duration": 14220000,
+        "dateStart": 1660615205377,
+        "destination": "LOS"
+      },
+      "price": 7600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "509760cf-2f3d-4e50-8abb-7f06ea20ff87",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1665287901193,
+        "duration": 12660000,
+        "dateStart": 1665275241193,
+        "destination": "EKV"
+      },
+      "price": 200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b947be0c-8054-4485-8b5d-57342026f689",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1661923135190,
+        "duration": 3720000,
+        "dateStart": 1661919415190,
+        "destination": "LOS"
+      },
+      "price": 29200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1c604912-0755-460b-a196-4d03954b3127",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1660715368656,
+        "duration": 540000,
+        "dateStart": 1660714828656,
+        "destination": "EKV"
+      },
+      "price": 9600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "31ee83c3-7411-4abc-9250-5a733e69e717",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1660475903840,
+        "duration": 24840000,
+        "dateStart": 1660451063840,
+        "destination": "HKT"
+      },
+      "price": 2600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d0ceac62-aad7-4016-948a-332cfb03b121",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1657772869613,
+        "duration": 7740000,
+        "dateStart": 1657765129613,
+        "destination": "SRT"
+      },
+      "price": 49700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "69175335-5927-4808-8f46-1033cbba148a",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1657778933328,
+        "duration": 8820000,
+        "dateStart": 1657770113328,
+        "destination": "HKG"
+      },
+      "price": 45300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8dece5ab-4ef5-4def-b8ae-62a7b5e9c5d9",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663303415663,
+        "duration": 23760000,
+        "dateStart": 1663279655663,
+        "destination": "ARH"
+      },
+      "price": 6600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b874aacf-f9be-4f26-80c6-8d2b9675c8d0",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1662538301187,
+        "duration": 24840000,
+        "dateStart": 1662513461187,
+        "destination": "JNB"
+      },
+      "price": 1800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "6204084c-f919-4c85-ae0d-3c08960a8fda",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1657330620682,
+        "duration": 10380000,
+        "dateStart": 1657320240682,
+        "destination": "EKV"
+      },
+      "price": 100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d69ee005-c1d5-4896-a766-3834563975e3",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1662265846536,
+        "duration": 60000,
+        "dateStart": 1662265786536,
+        "destination": "EKV"
+      },
+      "price": 19500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "327298b4-472c-464e-a38b-de7dd4fe2c16",
+      "info": {
+        "stops": [
+          "SRT",
+          "EKV"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655273016460,
+        "duration": 15120000,
+        "dateStart": 1655257896460,
+        "destination": "EKT"
+      },
+      "price": 2300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0663bb8c-3cc4-4701-8528-6feaea305852",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1658893833071,
+        "duration": 2340000,
+        "dateStart": 1658891493071,
+        "destination": "HKT"
+      },
+      "price": 27100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "56690da9-50d1-4fe1-ba24-d7b6430fcdd9",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1662206280812,
+        "duration": 34920000,
+        "dateStart": 1662171360812,
+        "destination": "JNB"
+      },
+      "price": 32900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "88665de4-1f19-431b-ba54-2278679773fa",
+      "info": {
+        "stops": [
+          "TRN",
+          "SRT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1659744278968,
+        "duration": 7440000,
+        "dateStart": 1659736838968,
+        "destination": "KRS"
+      },
+      "price": 10500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "551f1b93-112f-4e1b-8873-f05c423c0d8a",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1662867896897,
+        "duration": 720000,
+        "dateStart": 1662867176897,
+        "destination": "SRT"
+      },
+      "price": 2300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1067d987-04fa-45cd-bdeb-5ae1c168e7f9",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1661596837688,
+        "duration": 34140000,
+        "dateStart": 1661562697688,
+        "destination": "EKV"
+      },
+      "price": 27600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "4cacba12-834f-4c50-8b82-6bac9e64988d",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1664670446851,
+        "duration": 480000,
+        "dateStart": 1664669966851,
+        "destination": "HKT"
+      },
+      "price": 19800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8ffafc78-78ce-4045-ab7a-259d2d20b26d",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659285037153,
+        "duration": 35580000,
+        "dateStart": 1659249457153,
+        "destination": "PTB"
+      },
+      "price": 41900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "84f66afa-40d0-4428-a2d2-6aa5bbac7bde",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1662374317292,
+        "duration": 23940000,
+        "dateStart": 1662350377292,
+        "destination": "ARH"
+      },
+      "price": 7800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "42fe2a42-adc4-410a-b605-f1bf5b3d0a5c",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1657789506906,
+        "duration": 9360000,
+        "dateStart": 1657780146906,
+        "destination": "SRT"
+      },
+      "price": 8700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b9e5f933-b5b3-4bfa-8d25-a6870a25ef05",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1658799726692,
+        "duration": 9060000,
+        "dateStart": 1658790666692,
+        "destination": "KRS"
+      },
+      "price": 13100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c0313e99-fd54-4add-9653-c373f2c242ea",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1660556771528,
+        "duration": 13500000,
+        "dateStart": 1660543271528,
+        "destination": "EKV"
+      },
+      "price": 33500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b499454d-1535-49a3-90e1-a4e4b2e146f9",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656844503331,
+        "duration": 24300000,
+        "dateStart": 1656820203331,
+        "destination": "KRS"
+      },
+      "price": 13900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "21b70a72-8140-4dcd-934b-23c4e0ceea8a",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1665112618692,
+        "duration": 3360000,
+        "dateStart": 1665109258692,
+        "destination": "EKT"
+      },
+      "price": 400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "405d148e-defe-417f-83ff-99bde37865e0",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1660605809388,
+        "duration": 4380000,
+        "dateStart": 1660601429388,
+        "destination": "EKT"
+      },
+      "price": 6100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0bb6cb4c-f5df-42c3-89e9-62b1cd9b9c95",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1654943536253,
+        "duration": 12600000,
+        "dateStart": 1654930936253,
+        "destination": "KRS"
+      },
+      "price": 42900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "49be6d0e-20c0-4973-9125-970dc2ae64aa",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1657263246791,
+        "duration": 8940000,
+        "dateStart": 1657254306791,
+        "destination": "PTB"
+      },
+      "price": 12100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "524959e2-ef2c-4e5b-8044-990bdb162701",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1658647440111,
+        "duration": 480000,
+        "dateStart": 1658646960111,
+        "destination": "PTB"
+      },
+      "price": 60900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f0aa11aa-f898-4fa1-a5de-8564005f8466",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1665296655950,
+        "duration": 7680000,
+        "dateStart": 1665288975950,
+        "destination": "EKV"
+      },
+      "price": 68900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e864b3ef-168c-45f1-b548-9990b0b03895",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655206274797,
+        "duration": 23100000,
+        "dateStart": 1655183174797,
+        "destination": "PTB"
+      },
+      "price": 53700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2145124d-85bb-4ec1-8195-a4062c54321b",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1662013819271,
+        "duration": 32940000,
+        "dateStart": 1661980879271,
+        "destination": "JNB"
+      },
+      "price": 21600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c8a55871-02fa-4eb4-b16b-76488a6e6c7d",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662941252716,
+        "duration": 5340000,
+        "dateStart": 1662935912716,
+        "destination": "ARH"
+      },
+      "price": 5100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "8976724d-dd01-4356-bd7d-94bdb29b5ee4",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663898215160,
+        "duration": 9960000,
+        "dateStart": 1663888255160,
+        "destination": "EKV"
+      },
+      "price": 7000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "16c46441-1041-4d50-9592-c626a50a6810",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1661154363207,
+        "duration": 6840000,
+        "dateStart": 1661147523207,
+        "destination": "LOS"
+      },
+      "price": 76000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "45556423-8bfe-4c8f-be93-c1a4cd3d3a15",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1660981354151,
+        "duration": 8760000,
+        "dateStart": 1660972594151,
+        "destination": "ARH"
+      },
+      "price": 31500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3d00cf09-ab91-4dff-9174-322b14148fae",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1662259189510,
+        "duration": 11760000,
+        "dateStart": 1662247429510,
+        "destination": "LOS"
+      },
+      "price": 76000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f80a3b5c-0fed-47a0-af86-2ff4b0fffbe2",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1658709961212,
+        "duration": 2160000,
+        "dateStart": 1658707801212,
+        "destination": "HKG"
+      },
+      "price": 7100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "eddbf436-f3d4-4ccb-a245-979ee870619b",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1655782986021,
+        "duration": 8700000,
+        "dateStart": 1655774286021,
+        "destination": "HKT"
+      },
+      "price": 11900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3c80bd34-c319-40e0-9298-f1d884e49a57",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "KRS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1660886627415,
+        "duration": 12900000,
+        "dateStart": 1660873727415,
+        "destination": "EKT"
+      },
+      "price": 11200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2c988720-f65a-455b-8bf7-311909e08563",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1659499496308,
+        "duration": 5640000,
+        "dateStart": 1659493856308,
+        "destination": "EKV"
+      },
+      "price": 36800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b8d2476d-faf8-4799-b829-b315dc064339",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1663114130898,
+        "duration": 6240000,
+        "dateStart": 1663107890898,
+        "destination": "JNB"
+      },
+      "price": 25000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a00d8839-a7b0-42e0-aeef-0b3288f10b58",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1661580087989,
+        "duration": 3960000,
+        "dateStart": 1661576127989,
+        "destination": "ARH"
+      },
+      "price": 62600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "eaa24755-9eea-4ab5-bf01-f474f241cdd7",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1658318465284,
+        "duration": 17820000,
+        "dateStart": 1658300645284,
+        "destination": "KRS"
+      },
+      "price": 17900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d2c33cec-49ae-48cd-8003-0015c368f318",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1658625794108,
+        "duration": 13320000,
+        "dateStart": 1658612474108,
+        "destination": "HKT"
+      },
+      "price": 39700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f9a8fab7-baf5-4e6b-bc64-e6df7b912fc3",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1657888719025,
+        "duration": 24060000,
+        "dateStart": 1657864659025,
+        "destination": "EKV"
+      },
+      "price": 64000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cbbc399a-6580-481f-bcf1-b7a2bd209c39",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1657507146645,
+        "duration": 660000,
+        "dateStart": 1657506486645,
+        "destination": "HKG"
+      },
+      "price": 23500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ce717fbd-b3e1-4b32-a653-3ab4b6753542",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1662189487070,
+        "duration": 32460000,
+        "dateStart": 1662157027070,
+        "destination": "MOW"
+      },
+      "price": 21900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "65218f6d-a134-4d05-bd5e-18fb5302fdcd",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1655701903788,
+        "duration": 10440000,
+        "dateStart": 1655691463788,
+        "destination": "TRN"
+      },
+      "price": 35100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1b9dc6ca-a2dc-4d98-ab1f-028a2a23b481",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660542346990,
+        "duration": 24600000,
+        "dateStart": 1660517746990,
+        "destination": "HKT"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9920b853-cc62-49ea-945f-452fe58106d6",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1658995288380,
+        "duration": 5340000,
+        "dateStart": 1658989948380,
+        "destination": "HKG"
+      },
+      "price": 37800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "edbc9387-b7eb-4ea8-9733-093fe80b7863",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1657063619288,
+        "duration": 4740000,
+        "dateStart": 1657058879288,
+        "destination": "KRS"
+      },
+      "price": 74500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c331e116-1cae-4604-8168-4bc1a4984d03",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657016243939,
+        "duration": 32400000,
+        "dateStart": 1656983843939,
+        "destination": "ARH"
+      },
+      "price": 33800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4d138f6d-eb52-4fb3-8846-9f5de608fadd",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1655080740221,
+        "duration": 10080000,
+        "dateStart": 1655070660221,
+        "destination": "HKT"
+      },
+      "price": 75900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5b2cdd46-c0bf-4a4a-8d71-66e5ecdb1a6a",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1661657353319,
+        "duration": 11400000,
+        "dateStart": 1661645953319,
+        "destination": "EKT"
+      },
+      "price": 68700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d63448ed-ee11-4fbd-a9b0-ca3ff0a989fa",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "ARH"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1663481141594,
+        "duration": 11160000,
+        "dateStart": 1663469981594,
+        "destination": "PTB"
+      },
+      "price": 40800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "cc46d16a-d8ef-4af4-9b31-d1a2e07108d7",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1657250131347,
+        "duration": 10320000,
+        "dateStart": 1657239811347,
+        "destination": "HKT"
+      },
+      "price": 12700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "9ac6b896-bcff-49f6-b5c6-9ae1167b0d16",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1662364847639,
+        "duration": 13020000,
+        "dateStart": 1662351827639,
+        "destination": "PTB"
+      },
+      "price": 52600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "60309a63-32c5-4a6c-800f-7fb9a2ee777c",
+      "info": {
+        "stops": [],
+        "origin": "MOW",
+        "dateEnd": 1657603175246,
+        "duration": 1740000,
+        "dateStart": 1657601435246,
+        "destination": "JNB"
+      },
+      "price": 51300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8b5ed3bc-4d4d-42a8-9247-693818a46f8c",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663746918696,
+        "duration": 9000000,
+        "dateStart": 1663737918696,
+        "destination": "LOS"
+      },
+      "price": 57100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "fabea764-480f-4245-826c-764fbe79344d",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1659059183736,
+        "duration": 2700000,
+        "dateStart": 1659056483736,
+        "destination": "JNB"
+      },
+      "price": 8700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2dbf1b7a-6183-47b2-bc99-0ed970d803e8",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1659242211906,
+        "duration": 15540000,
+        "dateStart": 1659226671906,
+        "destination": "EKV"
+      },
+      "price": 5200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a7827c57-27a7-4409-b0ef-1430c236f377",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1664603692628,
+        "duration": 1920000,
+        "dateStart": 1664601772628,
+        "destination": "EKT"
+      },
+      "price": 14800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d2a4a49a-1a06-41d2-93a5-751c78954e83",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1657690095115,
+        "duration": 8400000,
+        "dateStart": 1657681695115,
+        "destination": "LOS"
+      },
+      "price": 15500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "91c8b538-2732-4d66-9b5b-e467e2ac4590",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1658913253939,
+        "duration": 24780000,
+        "dateStart": 1658888473939,
+        "destination": "HKT"
+      },
+      "price": 85700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "5fe29afb-5a40-47ed-8a22-4832fcb2d789",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1658736186958,
+        "duration": 10260000,
+        "dateStart": 1658725926958,
+        "destination": "HKT"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a8e139c2-077b-4601-bb33-6bf9f205e81f",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1657093274984,
+        "duration": 8220000,
+        "dateStart": 1657085054984,
+        "destination": "EKT"
+      },
+      "price": 10700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d40b5ff8-3c1a-462b-8049-455c95c4a386",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1655281134166,
+        "duration": 6960000,
+        "dateStart": 1655274174166,
+        "destination": "SRT"
+      },
+      "price": 13900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ceb539fa-e4ab-454d-acba-22e46cf08db3",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1659674874841,
+        "duration": 21720000,
+        "dateStart": 1659653154841,
+        "destination": "ARH"
+      },
+      "price": 19400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ba1767dc-9b12-44e7-a588-ff37b1f986c4",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1659415590597,
+        "duration": 24360000,
+        "dateStart": 1659391230597,
+        "destination": "PTB"
+      },
+      "price": 50300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1d385359-e214-4d7d-ba72-2cd218efb433",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1657422752004,
+        "duration": 120000,
+        "dateStart": 1657422632004,
+        "destination": "LOS"
+      },
+      "price": 8600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "47035aa3-5156-466f-afb6-69536546deda",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1655771381785,
+        "duration": 2520000,
+        "dateStart": 1655768861785,
+        "destination": "SRT"
+      },
+      "price": 26000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2af6d4cc-ddcb-4481-8a57-5988b9c75892",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655271500110,
+        "duration": 21960000,
+        "dateStart": 1655249540110,
+        "destination": "SRT"
+      },
+      "price": 11700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2f8de417-3a41-46db-9b3a-64309265206f",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1665293841564,
+        "duration": 180000,
+        "dateStart": 1665293661564,
+        "destination": "JNB"
+      },
+      "price": 31300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "090a73b4-9f03-43ff-9683-72b07df62e19",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1665233977155,
+        "duration": 23820000,
+        "dateStart": 1665210157155,
+        "destination": "MOW"
+      },
+      "price": 13100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ea88d2f3-64f1-4acc-9b4c-e8f56f8d291e",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1659093495051,
+        "duration": 35880000,
+        "dateStart": 1659057615051,
+        "destination": "EKT"
+      },
+      "price": 48500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "70a6af73-8c88-4597-8f8a-aac2c3e2175b",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1661841293036,
+        "duration": 420000,
+        "dateStart": 1661840873036,
+        "destination": "PTB"
+      },
+      "price": 21000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "af776641-a02e-4833-82bf-d30e004f429e",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1660342497910,
+        "duration": 2340000,
+        "dateStart": 1660340157910,
+        "destination": "HKG"
+      },
+      "price": 10500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "22dba5f7-bb22-4eae-b7c6-3e4828a63b3d",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1658618008478,
+        "duration": 180000,
+        "dateStart": 1658617828478,
+        "destination": "TRN"
+      },
+      "price": 30200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "86647d1a-3bd8-482e-87bc-cd6fac5dc795",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1660180930968,
+        "duration": 3300000,
+        "dateStart": 1660177630968,
+        "destination": "TRN"
+      },
+      "price": 24000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "cc53763b-8428-484a-9455-d972077d51d5",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655798469454,
+        "duration": 3960000,
+        "dateStart": 1655794509454,
+        "destination": "MOW"
+      },
+      "price": 21000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e045a253-cd60-4e06-908c-61c7887da1ff",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1656901627490,
+        "duration": 9780000,
+        "dateStart": 1656891847490,
+        "destination": "MOW"
+      },
+      "price": 40200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "83bcc2c4-a665-4216-9614-525bf0c9f21d",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1664256400187,
+        "duration": 7020000,
+        "dateStart": 1664249380187,
+        "destination": "LOS"
+      },
+      "price": 21300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "1404c3de-417f-446a-bd1f-ebdd8966b413",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1661480566266,
+        "duration": 4860000,
+        "dateStart": 1661475706266,
+        "destination": "HKG"
+      },
+      "price": 16700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ad5eceff-2d4a-40fb-8a97-f049e9702cfe",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1654991005100,
+        "duration": 1560000,
+        "dateStart": 1654989445100,
+        "destination": "TRN"
+      },
+      "price": 9300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "9cc02dad-600d-443f-ab4b-80eee5f386f9",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1659351334273,
+        "duration": 34560000,
+        "dateStart": 1659316774273,
+        "destination": "ARH"
+      },
+      "price": 10100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a273875c-1c16-44a2-95a7-3dc7caba2079",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657530007634,
+        "duration": 16980000,
+        "dateStart": 1657513027634,
+        "destination": "LOS"
+      },
+      "price": 7000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "39220313-7055-419e-be43-ff3bc4082981",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1664367046343,
+        "duration": 23580000,
+        "dateStart": 1664343466343,
+        "destination": "MOW"
+      },
+      "price": 10500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cfe75daa-7ce6-471e-a054-8c55c02da81c",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1659598079261,
+        "duration": 21960000,
+        "dateStart": 1659576119261,
+        "destination": "JNB"
+      },
+      "price": 34600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a7fc3953-aa8a-414e-9e8d-2e75f0aa77d5",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1662700288665,
+        "duration": 21660000,
+        "dateStart": 1662678628665,
+        "destination": "ARH"
+      },
+      "price": 46300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "aad95f1b-2d50-458f-9fe0-c5d685bfb519",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662373244767,
+        "duration": 14820000,
+        "dateStart": 1662358424767,
+        "destination": "ARH"
+      },
+      "price": 32700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b9f48e73-7b10-4a8e-8176-c5158f9f868f",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1655703504361,
+        "duration": 1560000,
+        "dateStart": 1655701944361,
+        "destination": "ARH"
+      },
+      "price": 5600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "adebe108-c086-4fa7-8ebd-1f097e4a01c6",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1662534284022,
+        "duration": 6120000,
+        "dateStart": 1662528164022,
+        "destination": "MOW"
+      },
+      "price": 29200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ddbf3e84-a09c-42e7-8b04-c346d300c5c3",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1658208395072,
+        "duration": 12120000,
+        "dateStart": 1658196275072,
+        "destination": "HKG"
+      },
+      "price": 4600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3d9c2305-ba47-4a13-82db-b4341a43929f",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG",
+          "JNB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1654925284664,
+        "duration": 25080000,
+        "dateStart": 1654900204664,
+        "destination": "KRS"
+      },
+      "price": 59200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4e383cca-c19f-43b8-a6e6-e9d29754d7b0",
+      "info": {
+        "stops": [
+          "PTB",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1662110049026,
+        "duration": 33480000,
+        "dateStart": 1662076569026,
+        "destination": "MOW"
+      },
+      "price": 11100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ed7c1dfb-4cb7-463e-86a9-5cc4537049e5",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1664970438985,
+        "duration": 23340000,
+        "dateStart": 1664947098985,
+        "destination": "HKT"
+      },
+      "price": 38000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "77a31c4b-33f6-42bc-b669-680dd1b90d3c",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1657867840654,
+        "duration": 3000000,
+        "dateStart": 1657864840654,
+        "destination": "SRT"
+      },
+      "price": 3900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4bcb5976-5171-43e3-b7ac-220b44715831",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1657067419692,
+        "duration": 180000,
+        "dateStart": 1657067239692,
+        "destination": "MOW"
+      },
+      "price": 13200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "7031b45b-1e87-4345-8801-c34e64da10cd",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1659322801304,
+        "duration": 0,
+        "dateStart": 1659322801304,
+        "destination": "HKG"
+      },
+      "price": 4601,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+      "stops": [],
+      "origin": "HKT",
+      "dateEnd": 1659322801304,
+      "duration": 0,
+      "dateStart": 1659322801304,
+      "destination": "HKG"
+    },
+    {
+      "id": "7fb850e8-4bc7-4052-8eb9-e4f17fd51386",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1657675743623,
+        "duration": 1800000,
+        "dateStart": 1657673943623,
+        "destination": "KRS"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1c62af1c-e021-448c-8550-fcf6df166dcf",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662363716888,
+        "duration": 8340000,
+        "dateStart": 1662355376888,
+        "destination": "MOW"
+      },
+      "price": 10000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ee144c06-7f67-44fb-a9ce-bef414eb7788",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1656822982890,
+        "duration": 2580000,
+        "dateStart": 1656820402890,
+        "destination": "HKT"
+      },
+      "price": 55600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f78cfeff-70c1-446c-b136-901a54671f06",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1664007112138,
+        "duration": 10980000,
+        "dateStart": 1663996132138,
+        "destination": "KRS"
+      },
+      "price": 3800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "590f9170-1ddf-4e5a-a29b-322008c1856b",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1656489678554,
+        "duration": 14220000,
+        "dateStart": 1656475458554,
+        "destination": "MOW"
+      },
+      "price": 15700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "52c8fd3d-34e3-4620-9832-3ef823d4d719",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1663645230035,
+        "duration": 1080000,
+        "dateStart": 1663644150035,
+        "destination": "MOW"
+      },
+      "price": 47100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0dfbd9f1-c403-4f65-9e62-bc7c4cfab7cb",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1654921202872,
+        "duration": 11640000,
+        "dateStart": 1654909562872,
+        "destination": "HKT"
+      },
+      "price": 20900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7e8ec77b-6552-4177-8fd4-9757d6d9d7e1",
+      "info": {
+        "stops": [
+          "HKG",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1662973238161,
+        "duration": 13140000,
+        "dateStart": 1662960098161,
+        "destination": "EKV"
+      },
+      "price": 33900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e6b0167b-5f5e-4182-a0ac-99ad9048ed7c",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1665374811599,
+        "duration": 13320000,
+        "dateStart": 1665361491599,
+        "destination": "HKG"
+      },
+      "price": 45100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b7e147ce-0526-4de7-b75b-5b11f3de0582",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1656397889175,
+        "duration": 840000,
+        "dateStart": 1656397049175,
+        "destination": "EKT"
+      },
+      "price": 36000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "832958b8-78f1-4100-af89-a35ca56b8084",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1660003202141,
+        "duration": 6120000,
+        "dateStart": 1659997082141,
+        "destination": "EKT"
+      },
+      "price": 2200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e7cc8ff0-fb44-4de6-8480-7a3424591355",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1657600759542,
+        "duration": 11760000,
+        "dateStart": 1657588999542,
+        "destination": "ARH"
+      },
+      "price": 57700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "57d81df6-ee87-47b7-b0ab-86b2710a410f",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1661910045757,
+        "duration": 13920000,
+        "dateStart": 1661896125757,
+        "destination": "HKT"
+      },
+      "price": 15500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4b209bc3-cbbb-4c41-be6c-6ce331c119fe",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1657414742261,
+        "duration": 3780000,
+        "dateStart": 1657410962261,
+        "destination": "HKT"
+      },
+      "price": 59400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "881ae0cc-a896-4cc0-8547-048a9676e4e9",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1659150782851,
+        "duration": 16920000,
+        "dateStart": 1659133862851,
+        "destination": "KRS"
+      },
+      "price": 29800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "92f3fc9b-cd4d-4f08-a261-0b043c74ea1a",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1663810304851,
+        "duration": 12180000,
+        "dateStart": 1663798124851,
+        "destination": "ARH"
+      },
+      "price": 62700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2013d408-b8a3-4897-ada8-dde2f4cbd37d",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1655260177802,
+        "duration": 8460000,
+        "dateStart": 1655251717802,
+        "destination": "LOS"
+      },
+      "price": 19800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "25420bad-df69-4e89-ba76-3764c0e5dfe8",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1657757181130,
+        "duration": 7800000,
+        "dateStart": 1657749381130,
+        "destination": "JNB"
+      },
+      "price": 6100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e4ca2714-ec31-4016-a7f8-b090ef3cacaa",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656594993824,
+        "duration": 35640000,
+        "dateStart": 1656559353824,
+        "destination": "HKT"
+      },
+      "price": 2900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "637ded48-cf18-4827-9680-5dfc045d7393",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1660975196553,
+        "duration": 1920000,
+        "dateStart": 1660973276553,
+        "destination": "PTB"
+      },
+      "price": 10900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b9a7aa7c-1d4d-4250-9de5-6ca02f095aa5",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1655338162832,
+        "duration": 6720000,
+        "dateStart": 1655331442832,
+        "destination": "JNB"
+      },
+      "price": 64500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "1ed68baf-c0e1-4350-b1f3-f66d4ba7f5eb",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1656226654631,
+        "duration": 23700000,
+        "dateStart": 1656202954631,
+        "destination": "EKV"
+      },
+      "price": 800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8598547e-1d76-475f-a286-7455c39c1d72",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1657091604069,
+        "duration": 24300000,
+        "dateStart": 1657067304069,
+        "destination": "HKT"
+      },
+      "price": 62200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d77a6bf7-84bf-4803-a893-3ae5cb7e6fe0",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1664000144300,
+        "duration": 2820000,
+        "dateStart": 1663997324300,
+        "destination": "HKG"
+      },
+      "price": 30100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "13baaccb-755c-4576-9fad-962409651dcf",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656489618931,
+        "duration": 7500000,
+        "dateStart": 1656482118931,
+        "destination": "TRN"
+      },
+      "price": 25400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "fc404c56-37eb-4754-87bf-c118dc959738",
+      "info": {
+        "stops": [
+          "SRT",
+          "EKV"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655603349843,
+        "duration": 8040000,
+        "dateStart": 1655595309843,
+        "destination": "EKT"
+      },
+      "price": 6800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cad5e408-3ab7-4eb1-a141-4edf0d251175",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1661652023280,
+        "duration": 360000,
+        "dateStart": 1661651663280,
+        "destination": "EKT"
+      },
+      "price": 6600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "6f7d1fd7-2374-421f-852f-c55a3a6d1e66",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1664256800984,
+        "duration": 12180000,
+        "dateStart": 1664244620984,
+        "destination": "LOS"
+      },
+      "price": 1900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ed7caa45-856a-49a1-8e88-d46251ec9bd0",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1665042242640,
+        "duration": 1260000,
+        "dateStart": 1665040982640,
+        "destination": "JNB"
+      },
+      "price": 39300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a64e0d7d-b75d-4935-af07-f83c226b7f39",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1658365938129,
+        "duration": 2820000,
+        "dateStart": 1658363118129,
+        "destination": "ARH"
+      },
+      "price": 48700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "bf22a759-52ef-4595-9357-c8a15a773dda",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1658026513543,
+        "duration": 5040000,
+        "dateStart": 1658021473543,
+        "destination": "KRS"
+      },
+      "price": 84100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "014a077e-8e89-4787-b402-e14e43a5ae83",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1654931217936,
+        "duration": 5040000,
+        "dateStart": 1654926177936,
+        "destination": "EKT"
+      },
+      "price": 70800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "18b1e65e-1589-46ed-b809-aabde47f1406",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1665187532803,
+        "duration": 5100000,
+        "dateStart": 1665182432803,
+        "destination": "HKT"
+      },
+      "price": 55600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "a08d5778-0b9e-4726-b1df-a1ede94efbbd",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1664370534569,
+        "duration": 23460000,
+        "dateStart": 1664347074569,
+        "destination": "HKG"
+      },
+      "price": 1800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3584b6da-a747-4cd4-9a9a-16a333dcb4ad",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1663981470872,
+        "duration": 9960000,
+        "dateStart": 1663971510872,
+        "destination": "HKG"
+      },
+      "price": 27900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "bbcdd7cd-8b68-40ed-b510-5764d9bae142",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1656476797208,
+        "duration": 10020000,
+        "dateStart": 1656466777208,
+        "destination": "TRN"
+      },
+      "price": 40900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d4b3658e-d650-404f-adbc-6993eeb15d65",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1665366291386,
+        "duration": 9780000,
+        "dateStart": 1665356511386,
+        "destination": "HKT"
+      },
+      "price": 32400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2a62e3df-dd19-4082-a357-f2021d93b094",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1659823706844,
+        "duration": 600000,
+        "dateStart": 1659823106844,
+        "destination": "EKV"
+      },
+      "price": 49400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b3627fcd-caea-4a33-934d-b6158d6d7330",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662877012102,
+        "duration": 11400000,
+        "dateStart": 1662865612102,
+        "destination": "HKT"
+      },
+      "price": 18600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "37101c34-7945-45d9-973c-9dadb57bfe9f",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1656165759224,
+        "duration": 34980000,
+        "dateStart": 1656130779224,
+        "destination": "HKG"
+      },
+      "price": 54800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b9345714-9e76-4756-86c6-2e5dde80341c",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1656459743808,
+        "duration": 4320000,
+        "dateStart": 1656455423808,
+        "destination": "EKV"
+      },
+      "price": 4300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1682923e-4ef6-4c3e-a917-47e49443c658",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1657009660877,
+        "duration": 13200000,
+        "dateStart": 1656996460877,
+        "destination": "LOS"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ff8dcd2a-e118-4a00-ac5a-cd47936467ec",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1657855703219,
+        "duration": 11880000,
+        "dateStart": 1657843823219,
+        "destination": "LOS"
+      },
+      "price": 24700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f4ea9fda-7d19-46c3-a2ff-de6a62ad16b2",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663327336317,
+        "duration": 25080000,
+        "dateStart": 1663302256317,
+        "destination": "EKT"
+      },
+      "price": 42000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "47f6b88a-289e-46aa-9da7-16b21c4deb30",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1662713110709,
+        "duration": 12180000,
+        "dateStart": 1662700930709,
+        "destination": "MOW"
+      },
+      "price": 43400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f69c8af6-0dcf-407c-a0dc-27730ec8c4ec",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659600595869,
+        "duration": 11760000,
+        "dateStart": 1659588835869,
+        "destination": "SRT"
+      },
+      "price": 15700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3312f2ca-4df6-46f8-b2a8-870766d65cae",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "ARH"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1657444425084,
+        "duration": 21660000,
+        "dateStart": 1657422765084,
+        "destination": "PTB"
+      },
+      "price": 1300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ce4799bb-0135-4865-a9ed-bdd0465f4dbc",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1663384619347,
+        "duration": 2640000,
+        "dateStart": 1663381979347,
+        "destination": "MOW"
+      },
+      "price": 75300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "124e3ea7-2b97-43e3-b648-238075e4344d",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1661637917850,
+        "duration": 2160000,
+        "dateStart": 1661635757850,
+        "destination": "TRN"
+      },
+      "price": 18000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c1afbc77-eca7-4c27-8c46-6af2641edf24",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1659504562916,
+        "duration": 11700000,
+        "dateStart": 1659492862916,
+        "destination": "JNB"
+      },
+      "price": 42700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "177bf8d8-61d6-4725-944f-5b1851a802d3",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "JNB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1657279164934,
+        "duration": 24840000,
+        "dateStart": 1657254324934,
+        "destination": "HKG"
+      },
+      "price": 29100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "a62d59ff-5bf2-423d-8f74-6c5c78296a45",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1659072276533,
+        "duration": 7800000,
+        "dateStart": 1659064476533,
+        "destination": "HKT"
+      },
+      "price": 17300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5cb367da-995c-4c8e-8f58-46e7133fc81f",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1663890082652,
+        "duration": 2820000,
+        "dateStart": 1663887262652,
+        "destination": "LOS"
+      },
+      "price": 16900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d284af68-2daf-443f-88e6-eb50ed1b10b3",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1665209935716,
+        "duration": 9780000,
+        "dateStart": 1665200155716,
+        "destination": "EKV"
+      },
+      "price": 40100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "813b1099-a075-4562-9563-ab0ba8d670e3",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1664434568336,
+        "duration": 34500000,
+        "dateStart": 1664400068336,
+        "destination": "HKT"
+      },
+      "price": 57100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "25bfd91c-360f-460c-9e62-6dc020aef953",
+      "info": {
+        "stops": [
+          "KRS",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1654932878819,
+        "duration": 34440000,
+        "dateStart": 1654898438819,
+        "destination": "EKT"
+      },
+      "price": 8700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3030d63d-bd96-4bba-b626-3cc7cdefc097",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1657682117512,
+        "duration": 3240000,
+        "dateStart": 1657678877512,
+        "destination": "SRT"
+      },
+      "price": 5300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "550a662a-727b-4a71-beea-5a167f462dca",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1661681111117,
+        "duration": 24120000,
+        "dateStart": 1661656991117,
+        "destination": "MOW"
+      },
+      "price": 49000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "216e9150-9aa9-491b-b88d-5b9281a983d2",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1662598121408,
+        "duration": 6420000,
+        "dateStart": 1662591701408,
+        "destination": "KRS"
+      },
+      "price": 29900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "aec1fa48-384d-484d-85ec-8e5f3433173c",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1658105891008,
+        "duration": 1320000,
+        "dateStart": 1658104571008,
+        "destination": "KRS"
+      },
+      "price": 4400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "71d0f098-8287-4d80-b7ad-faeaff61bba6",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1657097887344,
+        "duration": 24420000,
+        "dateStart": 1657073467344,
+        "destination": "EKV"
+      },
+      "price": 35900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "181e208e-50fc-41b4-ab45-9168adc7a323",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1664014396506,
+        "duration": 10860000,
+        "dateStart": 1664003536506,
+        "destination": "HKG"
+      },
+      "price": 12300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d4a2523d-06c2-4052-ba97-a787734a1a9f",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1661121362245,
+        "duration": 2700000,
+        "dateStart": 1661118662245,
+        "destination": "SRT"
+      },
+      "price": 27200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "692ae82f-dc18-4a42-978e-6f9174a72622",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1663371187394,
+        "duration": 2220000,
+        "dateStart": 1663368967394,
+        "destination": "EKT"
+      },
+      "price": 70600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "bb035d55-8862-4531-b815-3348347cbe09",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1658923876479,
+        "duration": 34500000,
+        "dateStart": 1658889376479,
+        "destination": "PTB"
+      },
+      "price": 32700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "932e7233-5201-4891-aaaa-2ffe3d19ee2c",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1656304204497,
+        "duration": 4620000,
+        "dateStart": 1656299584497,
+        "destination": "PTB"
+      },
+      "price": 58200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "060543d6-1f2a-4db1-b81f-870c230f95e0",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655522597214,
+        "duration": 11520000,
+        "dateStart": 1655511077214,
+        "destination": "TRN"
+      },
+      "price": 23000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9713cefd-0ea8-4ede-98ee-78fcbd473179",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1658209632416,
+        "duration": 5160000,
+        "dateStart": 1658204472416,
+        "destination": "TRN"
+      },
+      "price": 37600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2372c2e6-77c9-4cab-bfa6-bde568f9d0b1",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1659341722556,
+        "duration": 24660000,
+        "dateStart": 1659317062556,
+        "destination": "KRS"
+      },
+      "price": 21400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "ccfe9190-4a1d-4f9f-9eaf-ea3dc4eb53e9",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1659402921668,
+        "duration": 2700000,
+        "dateStart": 1659400221668,
+        "destination": "JNB"
+      },
+      "price": 37600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "abc3bc07-a605-461a-b19e-582ee9cd5cc5",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1664164294915,
+        "duration": 16200000,
+        "dateStart": 1664148094915,
+        "destination": "PTB"
+      },
+      "price": 3200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3dc75140-6e0f-4810-8cbe-34265de129df",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1662350076919,
+        "duration": 5940000,
+        "dateStart": 1662344136919,
+        "destination": "JNB"
+      },
+      "price": 24300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "1afd7384-6729-4c18-b8ae-d71af73c03f1",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1661298785633,
+        "duration": 8220000,
+        "dateStart": 1661290565633,
+        "destination": "JNB"
+      },
+      "price": 30400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "55d51d44-05af-4842-82b3-ca23b748133a",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1660198521234,
+        "duration": 1140000,
+        "dateStart": 1660197381234,
+        "destination": "JNB"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f082356f-fed1-46e4-9870-a2e0a4c0f636",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1661915710497,
+        "duration": 15960000,
+        "dateStart": 1661899750497,
+        "destination": "HKG"
+      },
+      "price": 31800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b553caa6-22e1-4197-8146-3e3166732f93",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1656912758315,
+        "duration": 2280000,
+        "dateStart": 1656910478315,
+        "destination": "KRS"
+      },
+      "price": 23200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "fadeb4cd-bd3c-4c59-9018-6266016b6137",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1662557619752,
+        "duration": 23280000,
+        "dateStart": 1662534339752,
+        "destination": "MOW"
+      },
+      "price": 13000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "60ed824f-2961-4475-8dd7-52fbb1558bd0",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1661831610321,
+        "duration": 2100000,
+        "dateStart": 1661829510321,
+        "destination": "MOW"
+      },
+      "price": 54700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9b2e31c3-43e6-461b-9030-78f0abb1777c",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1664617380023,
+        "duration": 23460000,
+        "dateStart": 1664593920023,
+        "destination": "PTB"
+      },
+      "price": 700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5b15629f-f5b2-42cd-9c15-700a828a0c2a",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655084685956,
+        "duration": 8880000,
+        "dateStart": 1655075805956,
+        "destination": "JNB"
+      },
+      "price": 27700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9ed632b0-c3d5-4d0e-8be3-e48644c809a9",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1661145689518,
+        "duration": 16920000,
+        "dateStart": 1661128769518,
+        "destination": "JNB"
+      },
+      "price": 53900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0e3b1da6-2140-4f41-be6b-7bea052c0700",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1656724059649,
+        "duration": 3180000,
+        "dateStart": 1656720879649,
+        "destination": "PTB"
+      },
+      "price": 6700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f2ae83b8-c402-4d18-b20e-d4d0c44f6ae3",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1656805906269,
+        "duration": 4680000,
+        "dateStart": 1656801226269,
+        "destination": "LOS"
+      },
+      "price": 20500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3ed5b738-ebb3-49f9-85ea-45ae6d065a3e",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1659758292421,
+        "duration": 22860000,
+        "dateStart": 1659735432421,
+        "destination": "EKV"
+      },
+      "price": 32200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "a845cd9a-b9b8-4d9a-959e-f808e18ea8b1",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1663406971175,
+        "duration": 10080000,
+        "dateStart": 1663396891175,
+        "destination": "ARH"
+      },
+      "price": 37400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f05aa83c-c53a-4dc8-a7ab-74d7e933d7d7",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1659824378845,
+        "duration": 2760000,
+        "dateStart": 1659821618845,
+        "destination": "EKV"
+      },
+      "price": 73700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "fc357047-92f4-4612-b078-6cf35470857d",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1655868098855,
+        "duration": 0,
+        "dateStart": 1655868098855,
+        "destination": "EKT"
+      },
+      "price": 18501,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+      "stops": [],
+      "origin": "HKT",
+      "dateEnd": 1655868098855,
+      "duration": 0,
+      "dateStart": 1655868098855,
+      "destination": "EKT"
+    },
+    {
+      "id": "080d475b-583b-4ed6-83d0-2745ffa0699e",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1663923171868,
+        "duration": 9120000,
+        "dateStart": 1663914051868,
+        "destination": "EKT"
+      },
+      "price": 20600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b5c4b85c-000d-425f-9c13-3aeb9ca160f5",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663065272591,
+        "duration": 22680000,
+        "dateStart": 1663042592591,
+        "destination": "PTB"
+      },
+      "price": 73700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0105981b-e3f9-4c28-a12e-f7ae982b4a23",
+      "info": {
+        "stops": [
+          "KRS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1660819227009,
+        "duration": 13320000,
+        "dateStart": 1660805907009,
+        "destination": "LOS"
+      },
+      "price": 75900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "efa0456f-790c-4a4b-9aae-0ba4845b33ac",
+      "info": {
+        "stops": [
+          "ARH",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1664035330378,
+        "duration": 34020000,
+        "dateStart": 1664001310378,
+        "destination": "PTB"
+      },
+      "price": 33500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "357e8fc9-c428-4a0b-a113-65bae79b371f",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659931824944,
+        "duration": 23160000,
+        "dateStart": 1659908664944,
+        "destination": "PTB"
+      },
+      "price": 10600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0689e7af-6ac8-4f30-9f23-f82fc4abfe90",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1656453238783,
+        "duration": 120000,
+        "dateStart": 1656453118783,
+        "destination": "MOW"
+      },
+      "price": 35000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "94a5ad44-3e16-4f86-ad85-aaea6cbff311",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655094055026,
+        "duration": 12360000,
+        "dateStart": 1655081695026,
+        "destination": "SRT"
+      },
+      "price": 31500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d8bcc7b4-5874-42b0-a74b-84bd5d148852",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1659093447398,
+        "duration": 35160000,
+        "dateStart": 1659058287398,
+        "destination": "SRT"
+      },
+      "price": 43700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "601c7559-1cb6-4202-a61a-64775533e303",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1660203480750,
+        "duration": 11400000,
+        "dateStart": 1660192080750,
+        "destination": "LOS"
+      },
+      "price": 6300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cac11f4c-17b5-43b8-aa33-0c67909e4413",
+      "info": {
+        "stops": [
+          "SRT",
+          "EKV"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1660626065749,
+        "duration": 8100000,
+        "dateStart": 1660617965749,
+        "destination": "LOS"
+      },
+      "price": 24700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f7a95b57-91e8-4c44-8487-ecbdc984b0fb",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1656074246868,
+        "duration": 22680000,
+        "dateStart": 1656051566868,
+        "destination": "HKG"
+      },
+      "price": 47300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "32accf53-cd4e-435a-8b18-c5cfce1af47a",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1656626857913,
+        "duration": 2580000,
+        "dateStart": 1656624277913,
+        "destination": "JNB"
+      },
+      "price": 27800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "edbb2609-3657-4e6d-8dbb-0b6cf505994d",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1658894986148,
+        "duration": 1920000,
+        "dateStart": 1658893066148,
+        "destination": "ARH"
+      },
+      "price": 80800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "6ab320ed-9002-420a-a688-825ed405b9d4",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662885404106,
+        "duration": 13740000,
+        "dateStart": 1662871664106,
+        "destination": "MOW"
+      },
+      "price": 29600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "58f978fe-c515-40be-8d1b-45ad5fcad5cb",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1656664116988,
+        "duration": 16800000,
+        "dateStart": 1656647316988,
+        "destination": "EKT"
+      },
+      "price": 25200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4e87dbbf-f5dc-4c48-b111-4153b34c969b",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1663504983034,
+        "duration": 24060000,
+        "dateStart": 1663480923034,
+        "destination": "SRT"
+      },
+      "price": 13500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f7b0b13b-f85a-4bce-b787-91d43e94c7a2",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1657262346405,
+        "duration": 9420000,
+        "dateStart": 1657252926405,
+        "destination": "PTB"
+      },
+      "price": 17900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "05b29156-3144-4fa8-b59d-a0baf103e932",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1655363751411,
+        "duration": 60000,
+        "dateStart": 1655363691411,
+        "destination": "ARH"
+      },
+      "price": 41000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "6b8699f3-d442-47da-a6f0-51e3500cf377",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1660007491510,
+        "duration": 780000,
+        "dateStart": 1660006711510,
+        "destination": "TRN"
+      },
+      "price": 31800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5ef09bac-52bc-4f10-a6f9-684627c1cc94",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1657273336384,
+        "duration": 11760000,
+        "dateStart": 1657261576384,
+        "destination": "KRS"
+      },
+      "price": 70300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b65c1be9-9d2a-4986-9ba4-24aaf635e733",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1661585951140,
+        "duration": 3180000,
+        "dateStart": 1661582771140,
+        "destination": "HKG"
+      },
+      "price": 77600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e91b6a40-7996-4e5d-944c-85bece1357db",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1664097102705,
+        "duration": 8460000,
+        "dateStart": 1664088642705,
+        "destination": "EKV"
+      },
+      "price": 2600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "274d18bf-703a-4234-af29-554f50a6162b",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1661138286463,
+        "duration": 8220000,
+        "dateStart": 1661130066463,
+        "destination": "SRT"
+      },
+      "price": 23800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c6952c99-d48f-4175-911e-8d8b26706c03",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1662337635583,
+        "duration": 10380000,
+        "dateStart": 1662327255583,
+        "destination": "EKT"
+      },
+      "price": 7800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a8dcf3f4-dfed-47d1-a7f8-70ddd2102b24",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1663573682821,
+        "duration": 2340000,
+        "dateStart": 1663571342821,
+        "destination": "EKT"
+      },
+      "price": 16500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b1cae1fb-8b6a-4a25-9946-5fb17beb20af",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1661578239967,
+        "duration": 9300000,
+        "dateStart": 1661568939967,
+        "destination": "ARH"
+      },
+      "price": 7600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5d8383ae-1601-4666-bcf4-6f716e9415a5",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1658453135521,
+        "duration": 1020000,
+        "dateStart": 1658452115521,
+        "destination": "EKT"
+      },
+      "price": 18100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "a43534c2-13c3-49cb-b0d0-2a3fb17bc167",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1663927372131,
+        "duration": 24360000,
+        "dateStart": 1663903012131,
+        "destination": "MOW"
+      },
+      "price": 67800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b41e75e0-1d0e-4f49-802b-63a7510eb523",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1661239594451,
+        "duration": 14880000,
+        "dateStart": 1661224714451,
+        "destination": "LOS"
+      },
+      "price": 20400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ed108bd5-cae6-4ad5-9928-d59188e72297",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1659327175416,
+        "duration": 16800000,
+        "dateStart": 1659310375416,
+        "destination": "HKT"
+      },
+      "price": 8300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "53fad1d0-0b9c-435b-9cc9-f5aa4ca81fab",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1659752975574,
+        "duration": 9960000,
+        "dateStart": 1659743015574,
+        "destination": "MOW"
+      },
+      "price": 30200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "2521b002-312b-4fcc-b9cb-8611d92d2ba1",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1659219769385,
+        "duration": 480000,
+        "dateStart": 1659219289385,
+        "destination": "HKT"
+      },
+      "price": 18500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0af44d98-3684-44a7-a038-3c6c05d332e4",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1658720898769,
+        "duration": 10680000,
+        "dateStart": 1658710218769,
+        "destination": "SRT"
+      },
+      "price": 20700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0401134f-cbb4-4306-83c4-caf5ccee2982",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660539160769,
+        "duration": 22680000,
+        "dateStart": 1660516480769,
+        "destination": "EKV"
+      },
+      "price": 8200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "de39c7f3-d95e-4f1d-924c-0704f2425f55",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658290817838,
+        "duration": 12420000,
+        "dateStart": 1658278397838,
+        "destination": "SRT"
+      },
+      "price": 49700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ffeeb3ab-5adf-49ce-b61d-def0985af3e5",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1658280642982,
+        "duration": 10920000,
+        "dateStart": 1658269722982,
+        "destination": "LOS"
+      },
+      "price": 19800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "49985420-44fc-40da-8cc2-944757b60d99",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1661925804742,
+        "duration": 840000,
+        "dateStart": 1661924964742,
+        "destination": "EKT"
+      },
+      "price": 20300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "57d98e6b-d76d-4c4a-8815-e4115ef53d9c",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1657244719487,
+        "duration": 2460000,
+        "dateStart": 1657242259487,
+        "destination": "EKV"
+      },
+      "price": 27700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "dfbd8fe4-0bfc-4cdb-82cc-ba9869801bb1",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1663747807112,
+        "duration": 11280000,
+        "dateStart": 1663736527112,
+        "destination": "ARH"
+      },
+      "price": 24300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2faa0fe9-26fa-40fb-b898-0f3d52dca121",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1661464941572,
+        "duration": 180000,
+        "dateStart": 1661464761572,
+        "destination": "EKV"
+      },
+      "price": 5600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7c096c90-6de1-45b3-b273-28215cda4ab6",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663215544775,
+        "duration": 10560000,
+        "dateStart": 1663204984775,
+        "destination": "TRN"
+      },
+      "price": 12700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e517eabe-e890-4903-b9b2-463132ea598c",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1661335140915,
+        "duration": 9360000,
+        "dateStart": 1661325780915,
+        "destination": "LOS"
+      },
+      "price": 55600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "7c792af4-ac10-4712-a9fe-4b89c6c83a44",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1658961827840,
+        "duration": 1440000,
+        "dateStart": 1658960387840,
+        "destination": "EKT"
+      },
+      "price": 38200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b9ffc92a-919d-4954-8e98-8ddbc0ad76f4",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1655452051587,
+        "duration": 5340000,
+        "dateStart": 1655446711587,
+        "destination": "SRT"
+      },
+      "price": 79000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "5bc6f8ee-ac1a-4b2a-88e9-33d3f842e37a",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655356884927,
+        "duration": 7260000,
+        "dateStart": 1655349624927,
+        "destination": "TRN"
+      },
+      "price": 8000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "eed14daf-d098-4240-b2f2-0bb0135b95bc",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1664957002657,
+        "duration": 16980000,
+        "dateStart": 1664940022657,
+        "destination": "SRT"
+      },
+      "price": 22400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0557f29d-576c-4c40-a7c2-9b30dc95cddb",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1657077064660,
+        "duration": 17400000,
+        "dateStart": 1657059664660,
+        "destination": "PTB"
+      },
+      "price": 26500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "cad3edfe-5711-4882-a10e-fc0b5c6559d3",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1657508667224,
+        "duration": 9960000,
+        "dateStart": 1657498707224,
+        "destination": "ARH"
+      },
+      "price": 73200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5c0350ae-ea59-4a4a-b2a0-968da09de96d",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1665219973539,
+        "duration": 8040000,
+        "dateStart": 1665211933539,
+        "destination": "TRN"
+      },
+      "price": 44100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "87e6774d-414d-4763-98c2-2d357dceb71f",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655803451445,
+        "duration": 33420000,
+        "dateStart": 1655770031445,
+        "destination": "EKV"
+      },
+      "price": 18500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "324f8e9b-d0f1-4151-9908-36a14d317504",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1660731106872,
+        "duration": 22620000,
+        "dateStart": 1660708486872,
+        "destination": "JNB"
+      },
+      "price": 6700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f5636832-f547-45bd-9cf8-7376e3e12230",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1659307188159,
+        "duration": 2760000,
+        "dateStart": 1659304428159,
+        "destination": "PTB"
+      },
+      "price": 51300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "853e667e-23f1-457d-bc02-34d4580b6ac7",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1664427818576,
+        "duration": 22620000,
+        "dateStart": 1664405198576,
+        "destination": "HKT"
+      },
+      "price": 5500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "64c2c197-4e5e-473c-aa68-283c7de59c29",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1665281551453,
+        "duration": 2760000,
+        "dateStart": 1665278791453,
+        "destination": "JNB"
+      },
+      "price": 79600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "eab75e1d-24c7-485c-9ee2-da427a16da1f",
+      "info": {
+        "stops": [
+          "ARH"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1660697499354,
+        "duration": 7380000,
+        "dateStart": 1660690119354,
+        "destination": "TRN"
+      },
+      "price": 40800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "72d1ff06-2691-4ce2-b0be-33f199984508",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1663311906672,
+        "duration": 17400000,
+        "dateStart": 1663294506672,
+        "destination": "TRN"
+      },
+      "price": 5500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c5c30282-bf64-4b9a-9ed1-5c0c3309830a",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1665023518932,
+        "duration": 12600000,
+        "dateStart": 1665010918932,
+        "destination": "SRT"
+      },
+      "price": 27800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0569f7c0-21cb-42f3-893e-e543ea5ea676",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656983318453,
+        "duration": 4860000,
+        "dateStart": 1656978458453,
+        "destination": "EKV"
+      },
+      "price": 4500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0d144d70-981e-4a5b-ac99-62f7d1a3a631",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1656644826255,
+        "duration": 6360000,
+        "dateStart": 1656638466255,
+        "destination": "KRS"
+      },
+      "price": 4500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2621f750-b3c7-466c-ab9f-21171b750255",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658985705885,
+        "duration": 24060000,
+        "dateStart": 1658961645885,
+        "destination": "MOW"
+      },
+      "price": 62200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e77acac3-dc79-406d-a3bf-78bd60201431",
+      "info": {
+        "stops": [
+          "HKG",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663735591607,
+        "duration": 24360000,
+        "dateStart": 1663711231607,
+        "destination": "JNB"
+      },
+      "price": 27100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "26660c97-2640-42f9-9671-0a589aa11dbc",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1661834656099,
+        "duration": 1620000,
+        "dateStart": 1661833036099,
+        "destination": "MOW"
+      },
+      "price": 14500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0ccf4073-3611-4182-9efa-a0df3a40d7cd",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1663552387966,
+        "duration": 1680000,
+        "dateStart": 1663550707966,
+        "destination": "MOW"
+      },
+      "price": 41300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a7da718d-7143-4fe3-8afb-373862f68d9a",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1656831149749,
+        "duration": 16320000,
+        "dateStart": 1656814829749,
+        "destination": "PTB"
+      },
+      "price": 9700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "189ca78d-4ea5-4d26-9049-9e210b720996",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1655084079397,
+        "duration": 1020000,
+        "dateStart": 1655083059397,
+        "destination": "MOW"
+      },
+      "price": 33200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "a5380e6b-afae-4c6c-8e18-6ab5018f2508",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1658125428655,
+        "duration": 22080000,
+        "dateStart": 1658103348655,
+        "destination": "HKG"
+      },
+      "price": 700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7434bf49-4aad-4428-a8ab-b68191c12cb5",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1661169032969,
+        "duration": 24960000,
+        "dateStart": 1661144072969,
+        "destination": "ARH"
+      },
+      "price": 300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "93dacb20-afd2-42fb-8ed3-8c495e2aa77c",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1662855391847,
+        "duration": 8880000,
+        "dateStart": 1662846511847,
+        "destination": "EKV"
+      },
+      "price": 30400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f909e362-7b7a-4040-9401-259266df882b",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660818733614,
+        "duration": 35400000,
+        "dateStart": 1660783333614,
+        "destination": "HKG"
+      },
+      "price": 8900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b644eb2b-5ca0-42a0-8d60-7a2b790dbeac",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "LOS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1657357005217,
+        "duration": 14100000,
+        "dateStart": 1657342905217,
+        "destination": "EKT"
+      },
+      "price": 34300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3641e399-e85e-48f3-b292-72e47f256cae",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656312814147,
+        "duration": 10380000,
+        "dateStart": 1656302434147,
+        "destination": "EKT"
+      },
+      "price": 42900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b0aca0f9-07bf-4235-b767-a44d08383561",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1664633886834,
+        "duration": 25080000,
+        "dateStart": 1664608806834,
+        "destination": "PTB"
+      },
+      "price": 17900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1c3aca41-4a1d-41c2-b532-e39edef2051b",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1659858217561,
+        "duration": 12060000,
+        "dateStart": 1659846157561,
+        "destination": "HKT"
+      },
+      "price": 26500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "993ce8d3-ebaa-4203-bd35-44bc67c4a497",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1660625882496,
+        "duration": 23940000,
+        "dateStart": 1660601942496,
+        "destination": "LOS"
+      },
+      "price": 32200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "0c1f6fe9-ec6d-439e-b8b8-ccfde6d7d595",
+      "info": {
+        "stops": [
+          "KRS",
+          "LOS",
+          "EKV"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1657731021426,
+        "duration": 35700000,
+        "dateStart": 1657695321426,
+        "destination": "SRT"
+      },
+      "price": 2100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "076c0f3c-9b6b-43fa-beb3-9e136065d560",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1660354199925,
+        "duration": 9120000,
+        "dateStart": 1660345079925,
+        "destination": "HKG"
+      },
+      "price": 18700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d1dce37d-0d59-45c1-a2cd-54672be94ec3",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1664001303441,
+        "duration": 960000,
+        "dateStart": 1664000343441,
+        "destination": "HKT"
+      },
+      "price": 22500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "badea7f1-7ff5-4329-b052-afb5e591af3b",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1664849173601,
+        "duration": 9780000,
+        "dateStart": 1664839393601,
+        "destination": "EKT"
+      },
+      "price": 27500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "7b90a579-30ad-4285-bb4f-7ca9e978103a",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1660038675042,
+        "duration": 23340000,
+        "dateStart": 1660015335042,
+        "destination": "LOS"
+      },
+      "price": 17400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d712775d-e6c6-442f-97d9-8ce2e2daed09",
+      "info": {
+        "stops": [
+          "SRT",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1658220152685,
+        "duration": 22620000,
+        "dateStart": 1658197532685,
+        "destination": "LOS"
+      },
+      "price": 15100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d1700a10-7c5b-44f1-b9dc-6e103c043e21",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1664243234909,
+        "duration": 4020000,
+        "dateStart": 1664239214909,
+        "destination": "SRT"
+      },
+      "price": 28000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "03559bcb-656b-43a3-a425-c8b906b3ce57",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV",
+          "EKT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1658992136952,
+        "duration": 33600000,
+        "dateStart": 1658958536952,
+        "destination": "HKT"
+      },
+      "price": 34900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "925a8f5a-1dd1-4714-96be-cf6bbf81aee1",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1659062621125,
+        "duration": 10080000,
+        "dateStart": 1659052541125,
+        "destination": "TRN"
+      },
+      "price": 6100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "31bda695-83fd-4eb9-a3b7-88386577a6ed",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1661305904553,
+        "duration": 3120000,
+        "dateStart": 1661302784553,
+        "destination": "LOS"
+      },
+      "price": 63600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f8126aaf-fd21-42f8-b9b2-57dd889a32d2",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1655347534064,
+        "duration": 11880000,
+        "dateStart": 1655335654064,
+        "destination": "TRN"
+      },
+      "price": 12900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1e0275d5-6cce-4925-aa85-5064a1bfa006",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1663907452529,
+        "duration": 3180000,
+        "dateStart": 1663904272529,
+        "destination": "JNB"
+      },
+      "price": 8500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3907ac68-7316-4598-a4a4-1cb66b66dcda",
+      "info": {
+        "stops": [],
+        "origin": "MOW",
+        "dateEnd": 1659591643526,
+        "duration": 1260000,
+        "dateStart": 1659590383526,
+        "destination": "JNB"
+      },
+      "price": 6900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "284b848f-a137-4b9d-9895-a4cf508ba177",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1662247417807,
+        "duration": 2340000,
+        "dateStart": 1662245077807,
+        "destination": "HKT"
+      },
+      "price": 23500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "feae7d51-0bc1-420e-80ee-dd1b1818be56",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1655951058244,
+        "duration": 14160000,
+        "dateStart": 1655936898244,
+        "destination": "TRN"
+      },
+      "price": 73500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "96b57d13-237e-4132-808c-c38567f60443",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1658800209157,
+        "duration": 12600000,
+        "dateStart": 1658787609157,
+        "destination": "SRT"
+      },
+      "price": 70000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c38f3a0b-0677-4396-a620-495cb24bc5f1",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657872303070,
+        "duration": 11940000,
+        "dateStart": 1657860363070,
+        "destination": "HKT"
+      },
+      "price": 10700,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3637cb0e-e924-409c-b6b4-2541152a005b",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB",
+          "ARH"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1664363788975,
+        "duration": 33660000,
+        "dateStart": 1664330128975,
+        "destination": "HKG"
+      },
+      "price": 24600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f11074e3-ed6a-4fca-9971-6249adb3a05d",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1657409969861,
+        "duration": 7320000,
+        "dateStart": 1657402649861,
+        "destination": "MOW"
+      },
+      "price": 25600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "237ce5f1-8eac-45e4-8e45-79f7b57653c8",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1655936710994,
+        "duration": 2220000,
+        "dateStart": 1655934490994,
+        "destination": "ARH"
+      },
+      "price": 21100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "b7aaab38-47bc-4981-9af4-40972528bd50",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1662010473757,
+        "duration": 17280000,
+        "dateStart": 1661993193757,
+        "destination": "LOS"
+      },
+      "price": 18400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "f94b4ac6-b7ab-4ca6-b538-542914638f4e",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1664171644562,
+        "duration": 9060000,
+        "dateStart": 1664162584562,
+        "destination": "EKT"
+      },
+      "price": 49400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0009bd35-fa30-43e7-bb78-87420535b79e",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1655192094691,
+        "duration": 2100000,
+        "dateStart": 1655189994691,
+        "destination": "SRT"
+      },
+      "price": 37400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "d7cf73f7-a8cd-44ba-9b38-bbe434c9b753",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1663806311264,
+        "duration": 10260000,
+        "dateStart": 1663796051264,
+        "destination": "EKT"
+      },
+      "price": 45900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "5cd01506-2229-4006-bfbe-d47a90af9a97",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1663914621998,
+        "duration": 5460000,
+        "dateStart": 1663909161998,
+        "destination": "JNB"
+      },
+      "price": 9800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "138f5845-c357-4e0e-b159-937e3d827535",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1657122439457,
+        "duration": 32940000,
+        "dateStart": 1657089499457,
+        "destination": "HKT"
+      },
+      "price": 28600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e9f50c51-b94b-438b-803b-920577128a90",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1665306321396,
+        "duration": 6360000,
+        "dateStart": 1665299961396,
+        "destination": "TRN"
+      },
+      "price": 10500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "96adf2f6-f09f-47d0-be09-18e05300667b",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1656562561347,
+        "duration": 12240000,
+        "dateStart": 1656550321347,
+        "destination": "TRN"
+      },
+      "price": 73000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c2b5e6b8-c919-4184-93d1-17f3c703e993",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1664435322512,
+        "duration": 2700000,
+        "dateStart": 1664432622512,
+        "destination": "HKT"
+      },
+      "price": 5200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "56df45a5-fbd5-4aa0-87bf-4ca28da877ef",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1655517515442,
+        "duration": 3900000,
+        "dateStart": 1655513615442,
+        "destination": "HKG"
+      },
+      "price": 300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "121c6cb0-e14a-44d8-8e7c-4afbc966c334",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1657513534871,
+        "duration": 6660000,
+        "dateStart": 1657506874871,
+        "destination": "MOW"
+      },
+      "price": 49400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ba549a6d-c840-48bb-84ce-40fd25a2bd79",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "KRS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1661043871057,
+        "duration": 12840000,
+        "dateStart": 1661031031057,
+        "destination": "SRT"
+      },
+      "price": 13200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4a7fc62f-e21d-4fdd-a7d9-15631ee2c22c",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1654910586809,
+        "duration": 9300000,
+        "dateStart": 1654901286809,
+        "destination": "EKT"
+      },
+      "price": 16100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "61baaf6d-b71c-4736-9493-d82486541b1b",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1659678249142,
+        "duration": 7680000,
+        "dateStart": 1659670569142,
+        "destination": "KRS"
+      },
+      "price": 2000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e17fab0a-1fba-4852-afad-2495a5cb62e5",
+      "info": {
+        "stops": [
+          "ARH"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1659174282289,
+        "duration": 9720000,
+        "dateStart": 1659164562289,
+        "destination": "EKT"
+      },
+      "price": 52300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "66d96b88-fdf6-45bb-a08d-8fb8a2e47cab",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1660189079511,
+        "duration": 13260000,
+        "dateStart": 1660175819511,
+        "destination": "EKV"
+      },
+      "price": 100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "68fd92eb-0bfa-41ea-890a-5fb6fbde7fe7",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1665292988359,
+        "duration": 16560000,
+        "dateStart": 1665276428359,
+        "destination": "PTB"
+      },
+      "price": 6100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "da0a09e8-03c9-4bfa-bead-7026a069c62c",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1658223735301,
+        "duration": 11940000,
+        "dateStart": 1658211795301,
+        "destination": "PTB"
+      },
+      "price": 14500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "bedaaf10-4f7a-4bed-9372-4e6f16020cc6",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1657771645237,
+        "duration": 21780000,
+        "dateStart": 1657749865237,
+        "destination": "SRT"
+      },
+      "price": 32700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2fc2e766-2e34-413d-a79c-34ad11ad35c3",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1665018539034,
+        "duration": 2520000,
+        "dateStart": 1665016019034,
+        "destination": "EKV"
+      },
+      "price": 33400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "833a1db2-d9a3-4b48-a539-da0219c16380",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655264765250,
+        "duration": 10320000,
+        "dateStart": 1655254445250,
+        "destination": "PTB"
+      },
+      "price": 10600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "651ae41a-d4c8-480c-9c55-a9102d7139dc",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1661314493195,
+        "duration": 480000,
+        "dateStart": 1661314013195,
+        "destination": "SRT"
+      },
+      "price": 9900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "367ec279-0b64-4b17-8064-380df3a57462",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1663817904402,
+        "duration": 12960000,
+        "dateStart": 1663804944402,
+        "destination": "HKG"
+      },
+      "price": 21700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "461ed37f-5b2f-40b1-967f-cabe9d681d47",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1662177846251,
+        "duration": 2760000,
+        "dateStart": 1662175086251,
+        "destination": "KRS"
+      },
+      "price": 1400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e1953b57-4e6d-456a-8795-d26e11cb42e3",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1662286475018,
+        "duration": 11100000,
+        "dateStart": 1662275375018,
+        "destination": "JNB"
+      },
+      "price": 36600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "680bc09b-604a-4ca2-b8b0-4464f8470143",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1663493934185,
+        "duration": 14580000,
+        "dateStart": 1663479354185,
+        "destination": "SRT"
+      },
+      "price": 48700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "91ca549f-353f-4727-b9d7-2c6e4bfea894",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1655801321298,
+        "duration": 14820000,
+        "dateStart": 1655786501298,
+        "destination": "EKV"
+      },
+      "price": 26100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "7b244582-9876-4c43-9c7c-4d4cf7b632b3",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1654912537957,
+        "duration": 12960000,
+        "dateStart": 1654899577957,
+        "destination": "HKG"
+      },
+      "price": 7500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f31f987e-2c3a-4705-bb56-95fbbb039ac9",
+      "info": {
+        "stops": [],
+        "origin": "LOS",
+        "dateEnd": 1659486499383,
+        "duration": 3420000,
+        "dateStart": 1659483079383,
+        "destination": "SRT"
+      },
+      "price": 32900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "7084d7c0-9510-4b5b-a300-a66e0b411e44",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1664850016122,
+        "duration": 2040000,
+        "dateStart": 1664847976122,
+        "destination": "SRT"
+      },
+      "price": 30200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1bfbce56-0a40-425a-b833-d0130bf0c3bc",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1660990304981,
+        "duration": 13680000,
+        "dateStart": 1660976624981,
+        "destination": "PTB"
+      },
+      "price": 12100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "da0f9f4b-67ef-422c-b76c-3a6597282174",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1663394239708,
+        "duration": 3660000,
+        "dateStart": 1663390579708,
+        "destination": "HKT"
+      },
+      "price": 28600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "269f81be-b253-4821-bf09-aeaf24568f65",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1663140256922,
+        "duration": 9900000,
+        "dateStart": 1663130356922,
+        "destination": "HKG"
+      },
+      "price": 2300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "1153f517-ff9c-4935-a20f-4c17534389cd",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1658109787921,
+        "duration": 7380000,
+        "dateStart": 1658102407921,
+        "destination": "ARH"
+      },
+      "price": 17500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "48748ede-9aab-4020-99ca-b72802a972b4",
+      "info": {
+        "stops": [
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1660818987553,
+        "duration": 12240000,
+        "dateStart": 1660806747553,
+        "destination": "LOS"
+      },
+      "price": 18300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "297d7f8d-ced7-4385-80f4-d397ded71e32",
+      "info": {
+        "stops": [
+          "JNB"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1662507076634,
+        "duration": 7320000,
+        "dateStart": 1662499756634,
+        "destination": "PTB"
+      },
+      "price": 47300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "19a44522-6c15-4308-b554-d0d2756cf21c",
+      "info": {
+        "stops": [],
+        "origin": "MOW",
+        "dateEnd": 1659150133285,
+        "duration": 2160000,
+        "dateStart": 1659147973285,
+        "destination": "PTB"
+      },
+      "price": 82300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "58228fc3-e629-44dd-b1c7-5765787c7455",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1659320579914,
+        "duration": 9420000,
+        "dateStart": 1659311159914,
+        "destination": "LOS"
+      },
+      "price": 61100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c1c1cc30-5aec-4d4c-a492-9c7a22e80f16",
+      "info": {
+        "stops": [
+          "HKT"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1655632379354,
+        "duration": 13680000,
+        "dateStart": 1655618699354,
+        "destination": "LOS"
+      },
+      "price": 26200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "50a4b69d-179d-49b7-b9fe-c2c00975e4ba",
+      "info": {
+        "stops": [
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1661843223171,
+        "duration": 7380000,
+        "dateStart": 1661835843171,
+        "destination": "PTB"
+      },
+      "price": 8700,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2a3d0644-9eef-4bdf-8473-7bcbfbe2ccbd",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1662944771361,
+        "duration": 9900000,
+        "dateStart": 1662934871361,
+        "destination": "MOW"
+      },
+      "price": 13600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0a5a004b-b807-4fff-af8b-950de612ffe4",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1657524585575,
+        "duration": 3600000,
+        "dateStart": 1657520985575,
+        "destination": "HKT"
+      },
+      "price": 40300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "41fdba57-df40-4cef-b626-5b114c670a42",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB",
+          "TRN"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1665211892988,
+        "duration": 23460000,
+        "dateStart": 1665188432988,
+        "destination": "ARH"
+      },
+      "price": 35000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "c661d96a-29c5-4346-97ac-3e06a1211a71",
+      "info": {
+        "stops": [],
+        "origin": "PTB",
+        "dateEnd": 1659592280870,
+        "duration": 3060000,
+        "dateStart": 1659589220870,
+        "destination": "LOS"
+      },
+      "price": 82200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "4dc9704f-882c-43f4-b73b-7b931d68d8da",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1658802137822,
+        "duration": 11040000,
+        "dateStart": 1658791097822,
+        "destination": "ARH"
+      },
+      "price": 36600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "9c6dd75e-f554-4740-8d2a-7bbfa611df06",
+      "info": {
+        "stops": [
+          "JNB",
+          "PTB"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1660358852179,
+        "duration": 10080000,
+        "dateStart": 1660348772179,
+        "destination": "EKT"
+      },
+      "price": 11000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "df560dfd-9e5b-473d-b6e6-b795dff9861c",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1655781506142,
+        "duration": 10680000,
+        "dateStart": 1655770826142,
+        "destination": "EKT"
+      },
+      "price": 9400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "13515236-ae6e-46a8-b42f-40a2dbb343df",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1659100564036,
+        "duration": 24960000,
+        "dateStart": 1659075604036,
+        "destination": "SRT"
+      },
+      "price": 40400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "37538189-44d5-4141-b3a9-7e4c456d6fee",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1662169552250,
+        "duration": 15120000,
+        "dateStart": 1662154432250,
+        "destination": "EKV"
+      },
+      "price": 15900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e7ebfee4-87d1-4973-8725-b0c250f68297",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1661152288361,
+        "duration": 16320000,
+        "dateStart": 1661135968361,
+        "destination": "PTB"
+      },
+      "price": 22300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "fdf01d43-0c53-44fe-b9b0-f4048590f3a5",
+      "info": {
+        "stops": [],
+        "origin": "EKT",
+        "dateEnd": 1658016859238,
+        "duration": 2280000,
+        "dateStart": 1658014579238,
+        "destination": "HKG"
+      },
+      "price": 13500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "4286dd18-7024-4e6e-8380-aaa238f598ac",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1655700200662,
+        "duration": 12660000,
+        "dateStart": 1655687540662,
+        "destination": "SRT"
+      },
+      "price": 15200,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "e9bae6b8-ba00-459a-8992-1b6b94a74beb",
+      "info": {
+        "stops": [
+          "HKG",
+          "PTB"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1661141666153,
+        "duration": 17820000,
+        "dateStart": 1661123846153,
+        "destination": "JNB"
+      },
+      "price": 800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "be8e0c20-7106-45e2-94f8-b41b49cfff26",
+      "info": {
+        "stops": [
+          "KRS",
+          "SRT",
+          "EKV"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1655220237360,
+        "duration": 34260000,
+        "dateStart": 1655185977360,
+        "destination": "MOW"
+      },
+      "price": 40300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "00ccfbe3-c0d3-4674-b9e5-84519b4d5f45",
+      "info": {
+        "stops": [
+          "LOS"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663812750718,
+        "duration": 13200000,
+        "dateStart": 1663799550718,
+        "destination": "ARH"
+      },
+      "price": 40900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d632322e-12c4-47e9-83d8-051adaaf11d9",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1655613228292,
+        "duration": 23160000,
+        "dateStart": 1655590068292,
+        "destination": "HKG"
+      },
+      "price": 100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c15af867-3291-4d96-9146-f5f497964ac9",
+      "info": {
+        "stops": [
+          "HKG",
+          "JNB",
+          "PTB"
+        ],
+        "origin": "SRT",
+        "dateEnd": 1661317432670,
+        "duration": 22920000,
+        "dateStart": 1661294512670,
+        "destination": "MOW"
+      },
+      "price": 9800,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "735a3188-d759-46e7-bccc-834c14c025b7",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1662103358631,
+        "duration": 1800000,
+        "dateStart": 1662101558631,
+        "destination": "EKV"
+      },
+      "price": 12400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "503340a5-448d-4c15-a738-5d5aa4142c82",
+      "info": {
+        "stops": [
+          "PTB"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1665187502183,
+        "duration": 3660000,
+        "dateStart": 1665183842183,
+        "destination": "TRN"
+      },
+      "price": 11500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b99fae4c-9509-40ef-a78a-e955f62d4bcf",
+      "info": {
+        "stops": [],
+        "origin": "MOW",
+        "dateEnd": 1658810528957,
+        "duration": 1920000,
+        "dateStart": 1658808608957,
+        "destination": "HKG"
+      },
+      "price": 32800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "a04882ef-f4d7-40b0-93b0-52e86f6cfc21",
+      "info": {
+        "stops": [
+          "TRN",
+          "KRS",
+          "SRT"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1661402947733,
+        "duration": 23400000,
+        "dateStart": 1661379547733,
+        "destination": "PTB"
+      },
+      "price": 28100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "51d61a62-8cd7-475d-8e56-c032d5ff3b55",
+      "info": {
+        "stops": [],
+        "origin": "KRS",
+        "dateEnd": 1661740701965,
+        "duration": 780000,
+        "dateStart": 1661739921965,
+        "destination": "EKV"
+      },
+      "price": 61900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "415b6e61-a619-413a-8f5b-eeb628ebb854",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1662003178599,
+        "duration": 840000,
+        "dateStart": 1662002338599,
+        "destination": "JNB"
+      },
+      "price": 19400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c162c75d-ae57-47ff-82c0-637bd8c537f1",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1659316174251,
+        "duration": 9060000,
+        "dateStart": 1659307114251,
+        "destination": "EKT"
+      },
+      "price": 900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "670a50aa-0f6a-4df0-bf14-45bc819d0c49",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1665027744604,
+        "duration": 2460000,
+        "dateStart": 1665025284604,
+        "destination": "PTB"
+      },
+      "price": 16800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "322e6b6f-7b71-468a-84bf-54eb5a512c5d",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1663810997595,
+        "duration": 840000,
+        "dateStart": 1663810157595,
+        "destination": "LOS"
+      },
+      "price": 34600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ce110db7-be65-4453-94d1-e6b93be0aa55",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1665373269143,
+        "duration": 22920000,
+        "dateStart": 1665350349143,
+        "destination": "PTB"
+      },
+      "price": 10500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "6c20b67b-7caa-468c-bd90-1d824b3a089d",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1663149886386,
+        "duration": 15120000,
+        "dateStart": 1663134766386,
+        "destination": "EKT"
+      },
+      "price": 24600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "1a4fa3e2-d7d9-4d67-bc6c-86e4382f1a78",
+      "info": {
+        "stops": [
+          "SRT"
+        ],
+        "origin": "HKT",
+        "dateEnd": 1655075791298,
+        "duration": 5520000,
+        "dateStart": 1655070271298,
+        "destination": "EKT"
+      },
+      "price": 27100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "168bedd6-a875-49ee-918f-b5e5a79b9295",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1660220383825,
+        "duration": 34260000,
+        "dateStart": 1660186123825,
+        "destination": "HKT"
+      },
+      "price": 6000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "19d8f6e1-8a1c-47c8-b61c-d3acb0437a7e",
+      "info": {
+        "stops": [
+          "MOW"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1663669540604,
+        "duration": 13440000,
+        "dateStart": 1663656100604,
+        "destination": "SRT"
+      },
+      "price": 3000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "218274f0-b643-4ce0-a899-6a794db5962d",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "ARH",
+        "dateEnd": 1655134451868,
+        "duration": 33060000,
+        "dateStart": 1655101391868,
+        "destination": "TRN"
+      },
+      "price": 16300,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "d137ee3a-8c32-4e9a-b8d1-4df56b3b7aad",
+      "info": {
+        "stops": [
+          "KRS"
+        ],
+        "origin": "LOS",
+        "dateEnd": 1659168013627,
+        "duration": 7980000,
+        "dateStart": 1659160033627,
+        "destination": "EKV"
+      },
+      "price": 4900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3ed2e7c6-d871-4681-a58f-50e67c1a1ab8",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "TRN"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1655201670058,
+        "duration": 11940000,
+        "dateStart": 1655189730058,
+        "destination": "SRT"
+      },
+      "price": 22300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "c8f5e8fa-7ff2-4431-8d48-8fa1814274af",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS",
+          "EKT"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1660374812639,
+        "duration": 35640000,
+        "dateStart": 1660339172639,
+        "destination": "ARH"
+      },
+      "price": 15100,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "ff375559-4f29-4273-a7b7-2f79026bf285",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1657772062945,
+        "duration": 3000000,
+        "dateStart": 1657769062945,
+        "destination": "MOW"
+      },
+      "price": 12600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "15bd3a60-1151-45ec-b065-218de409f46a",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG",
+          "JNB"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1659319472665,
+        "duration": 13020000,
+        "dateStart": 1659306452665,
+        "destination": "SRT"
+      },
+      "price": 28900,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "183bd7e9-0b26-4909-bbf8-4b76e5c522d5",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1657865964435,
+        "duration": 1980000,
+        "dateStart": 1657863984435,
+        "destination": "HKT"
+      },
+      "price": 25400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "2dd9242d-c6ee-4a67-8215-2b55c0d5262b",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1660969738015,
+        "duration": 1860000,
+        "dateStart": 1660967878015,
+        "destination": "LOS"
+      },
+      "price": 4800,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "6097061b-6138-45b9-92a4-95c4de4b2eba",
+      "info": {
+        "stops": [],
+        "origin": "HKT",
+        "dateEnd": 1657768685153,
+        "duration": 300000,
+        "dateStart": 1657768385153,
+        "destination": "HKG"
+      },
+      "price": 28900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "631bb43a-8e2c-4674-bf93-c19d62207930",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1655678375116,
+        "duration": 1740000,
+        "dateStart": 1655676635116,
+        "destination": "HKG"
+      },
+      "price": 19500,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f7a15f29-2225-4217-87b4-e1782145e098",
+      "info": {
+        "stops": [],
+        "origin": "JNB",
+        "dateEnd": 1663114676828,
+        "duration": 180000,
+        "dateStart": 1663114496828,
+        "destination": "HKT"
+      },
+      "price": 23600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "53ede02c-44b0-44dc-936d-7127e757f403",
+      "info": {
+        "stops": [
+          "SRT",
+          "LOS"
+        ],
+        "origin": "EKT",
+        "dateEnd": 1657874196165,
+        "duration": 24120000,
+        "dateStart": 1657850076165,
+        "destination": "TRN"
+      },
+      "price": 39100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "49ed5854-2d7d-41e0-a5f6-0cd724fce275",
+      "info": {
+        "stops": [
+          "JNB",
+          "ARH"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1664251481403,
+        "duration": 22980000,
+        "dateStart": 1664228501403,
+        "destination": "PTB"
+      },
+      "price": 15000,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "e1be967d-c936-4b89-92c6-e9ef802504d6",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1656141796781,
+        "duration": 2700000,
+        "dateStart": 1656139096781,
+        "destination": "ARH"
+      },
+      "price": 8100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "0f6a20c7-0164-4d07-bbe9-47883b3f1d26",
+      "info": {
+        "stops": [
+          "EKT"
+        ],
+        "origin": "TRN",
+        "dateEnd": 1660343467973,
+        "duration": 3720000,
+        "dateStart": 1660339747973,
+        "destination": "MOW"
+      },
+      "price": 6300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "3252c544-7a4d-4545-a7d8-3ca25bb62b23",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1657684987631,
+        "duration": 180000,
+        "dateStart": 1657684807631,
+        "destination": "MOW"
+      },
+      "price": 3600,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "aa249708-a90b-4e62-a069-129f12b23660",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "HKG"
+        ],
+        "origin": "PTB",
+        "dateEnd": 1661326521912,
+        "duration": 32580000,
+        "dateStart": 1661293941912,
+        "destination": "SRT"
+      },
+      "price": 24100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "3def5d7f-12ee-411b-ab2c-edcbda117927",
+      "info": {
+        "stops": [],
+        "origin": "HKG",
+        "dateEnd": 1660462985241,
+        "duration": 2760000,
+        "dateStart": 1660460225241,
+        "destination": "TRN"
+      },
+      "price": 12300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "06bac1a7-4e49-4f28-9d92-123675570e93",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1663473417070,
+        "duration": 300000,
+        "dateStart": 1663473117070,
+        "destination": "JNB"
+      },
+      "price": 40400,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "fb4436b2-daa3-4f39-aba3-985f3d8bc5ea",
+      "info": {
+        "stops": [
+          "LOS",
+          "EKV"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660816808020,
+        "duration": 24000000,
+        "dateStart": 1660792808020,
+        "destination": "HKT"
+      },
+      "price": 20500,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "962ff86d-116b-4985-aa2a-fbfc1c83c332",
+      "info": {
+        "stops": [],
+        "origin": "ARH",
+        "dateEnd": 1662434295865,
+        "duration": 1800000,
+        "dateStart": 1662432495865,
+        "destination": "PTB"
+      },
+      "price": 600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "893f8f5b-4769-4173-8be7-a6b762021639",
+      "info": {
+        "stops": [
+          "MOW",
+          "HKT",
+          "JNB"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1663821210985,
+        "duration": 22380000,
+        "dateStart": 1663798830985,
+        "destination": "HKG"
+      },
+      "price": 4100,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "b4d39653-6123-4253-8a33-bd322cc95df4",
+      "info": {
+        "stops": [
+          "PTB",
+          "ARH",
+          "KRS"
+        ],
+        "origin": "EKV",
+        "dateEnd": 1657959739607,
+        "duration": 35580000,
+        "dateStart": 1657924159607,
+        "destination": "TRN"
+      },
+      "price": 8900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "96c47cd9-5a3c-48f0-b4d3-25d726ee1548",
+      "info": {
+        "stops": [
+          "HKT",
+          "HKG"
+        ],
+        "origin": "JNB",
+        "dateEnd": 1657161542266,
+        "duration": 17580000,
+        "dateStart": 1657143962266,
+        "destination": "ARH"
+      },
+      "price": 10900,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "56ba9bd5-a02e-425f-8b40-daa8778dfa46",
+      "info": {
+        "stops": [
+          "EKV",
+          "EKT"
+        ],
+        "origin": "HKG",
+        "dateEnd": 1664594681894,
+        "duration": 10440000,
+        "dateStart": 1664584241894,
+        "destination": "TRN"
+      },
+      "price": 24600,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "7a0fa1fd-5838-4df0-b8f5-620bc3755380",
+      "info": {
+        "stops": [],
+        "origin": "SRT",
+        "dateEnd": 1656306037848,
+        "duration": 360000,
+        "dateStart": 1656305677848,
+        "destination": "HKG"
+      },
+      "price": 44200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "8f964ba5-ec1e-43db-8b0f-dc32c56e4605",
+      "info": {
+        "stops": [
+          "TRN"
+        ],
+        "origin": "MOW",
+        "dateEnd": 1660179182123,
+        "duration": 4320000,
+        "dateStart": 1660174862123,
+        "destination": "HKG"
+      },
+      "price": 46200,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "517d44ae-9a80-40c4-a90c-4c6207df551a",
+      "info": {
+        "stops": [],
+        "origin": "EKV",
+        "dateEnd": 1661841804457,
+        "duration": 2940000,
+        "dateStart": 1661838864457,
+        "destination": "HKG"
+      },
+      "price": 33400,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    },
+    {
+      "id": "53bbf225-f569-4d8a-b3ef-6f618842d335",
+      "info": {
+        "stops": [
+          "ARH",
+          "TRN",
+          "SRT"
+        ],
+        "origin": "KRS",
+        "dateEnd": 1659082640129,
+        "duration": 34980000,
+        "dateStart": 1659047660129,
+        "destination": "EKT"
+      },
+      "price": 27000,
+      "companyId": "7dc12d0b-ce42-48a0-8673-0dad4d698764"
+    },
+    {
+      "id": "f076fe7f-d7c0-4bb8-95e5-62419754e77d",
+      "info": {
+        "stops": [],
+        "origin": "TRN",
+        "dateEnd": 1662160225921,
+        "duration": 3240000,
+        "dateStart": 1662156985921,
+        "destination": "EKV"
+      },
+      "price": 45300,
+      "companyId": "cddfa038-823b-43b1-b18d-395731881077"
+    }
+  ]
+}
