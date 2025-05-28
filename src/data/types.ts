@@ -52,14 +52,10 @@ export type TicketProps = {
   id: string;
   price: number;
   companyId: string;
-  info: {
-    origin: CityCodes;
-    destination: CityCodes;
-    dateStart: number;
-    dateEnd: number;
-    stops: CityCodes[];
-    duration: number;
-  };
+  departure: string; // пункт отправления
+  destination: string; // пункт назначения
+  departureAt: string; // время вылета
+  arrivalAt: string; // время прибытия
 };
 
 export type Company = {

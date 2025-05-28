@@ -22,7 +22,7 @@ export interface Filters {
 
 const initialState: Filters = {
   sortType: Object.keys(sorts)[0],
-  company: Object.keys(companies)[0],
+  company: "all",
   transfers: transfersData,
   destination: "",
   origin: "",

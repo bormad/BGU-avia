@@ -1,7 +1,7 @@
 import { getLongestTime } from ".";
 import { TicketProps } from "../data/types";
 
-type transfersType = {
+type TransfersType = {
   [prop: string]: {
     value: boolean;
     label: string;
@@ -14,55 +14,40 @@ const sortTickets = (
   filters: {
     sortType: string;
     company: string;
-    transfers: transfersType;
     origin: string;
     destination: string;
     dateStart: number | null;
     dateEnd: number | null;
   }
 ): TicketProps[] => {
-  const {
-    sortType,
-    company,
-    transfers,
-    origin,
-    destination,
-    dateStart,
-    dateEnd,
-  } = filters;
+  const { sortType, company, origin, destination, dateStart, dateEnd } =
+    filters;
 
   if (tickets.length === 0) return [];
 
   return tickets
     .filter((ticket) => {
       const companyMatch = ticket.companyId === company || company === "all";
-      const transfersMatch =
-        Object.values(transfers).find(
-          (transfer) => transfer.num === ticket.info.stops.length
-        )?.value ||
-        Object.values(transfers).every((transfer) => !transfer.value);
-
       const originMatch =
         (origin &&
-          ticket.info.origin.toLowerCase().includes(origin.toLowerCase())) ||
+          ticket.departure?.toLowerCase().includes(origin.toLowerCase())) ||
         !origin;
 
       const destinationMatch =
         (destination &&
-          ticket.info.destination
-            .toLowerCase()
+          ticket.destination
+            ?.toLowerCase()
             .includes(destination.toLowerCase())) ||
         !destination;
 
       const startDateMatch =
-        (dateStart && dateStart >= ticket.info.dateStart) || !dateStart;
+        (dateStart && dateStart >= +new Date(ticket.departureAt)) || !dateStart;
 
       const endDateMatch =
-        (dateEnd && dateEnd <= ticket.info.dateEnd) || !dateEnd;
+        (dateEnd && dateEnd <= +new Date(ticket.arrivalAt)) || !dateEnd;
 
       return (
         companyMatch &&
-        transfersMatch &&
         originMatch &&
         destinationMatch &&
         startDateMatch &&

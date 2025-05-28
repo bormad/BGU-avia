@@ -27,7 +27,10 @@ const Tickets = (props: { tickets: TicketProps[] }) => {
               id={ticket.id}
               price={ticket.price}
               companyId={ticket.companyId}
-              info={ticket.info}
+              departure={ticket.departure}
+              destination={ticket.destination}
+              departureAt={ticket.departureAt}
+              arrivalAt={ticket.arrivalAt}
             />
           ))}
           {!showAll && ticketsLeft > 0 && (

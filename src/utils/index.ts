@@ -23,7 +23,26 @@ export const getTransferTime = (duration: number) => {
 };
 
 export const getLongestTime = (ticketA: TicketProps, ticketB: TicketProps) => {
-  return ticketA.info.duration - ticketB.info.duration;
+  // Время вылета и прилёта первого билета
+  const timeDepartureA = new Date(ticketA.departureAt);
+  const timeArrivalA = new Date(ticketA.arrivalAt);
+
+  // Время вылета и прилёта второго билета
+  const timeDepartureB = new Date(ticketB.departureAt);
+  const timeArrivalB = new Date(ticketB.arrivalAt);
+
+  // Продолжительность полёта первого билета в минутах
+  const durationA = Math.floor(
+    (timeArrivalA.getTime() - timeDepartureA.getTime()) / 60000
+  );
+
+  // Продолжительность полёта второго билета в минутах
+  const durationB = Math.floor(
+    (timeArrivalB.getTime() - timeDepartureB.getTime()) / 60000
+  );
+
+  // Возвращаем разницу продолжительностей
+  return durationA - durationB;
 };
 
 export const getPriceInRoubles = (price: number) => {

@@ -1,21 +1,35 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "admin123",
       "role": "admin",
       "purchasedTickets": []
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "user1",
       "password": "user123",
       "role": "user",
-      "purchasedTickets": []
+      "purchasedTickets": [
+        {
+          "id": "572cstwyy",
+          "price": 4601,
+          "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+          "info": {
+            "stops": [],
+            "origin": "HKT",
+            "dateEnd": 1659322801304,
+            "duration": 0,
+            "dateStart": 1659322801304,
+            "destination": "HKG"
+          }
+        }
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "user2",
       "password": "user123",
       "role": "user",
@@ -58,6 +72,19 @@
             "duration": 0,
             "dateStart": 1655868098855,
             "destination": "EKT"
+          }
+        },
+        {
+          "id": "kdnzbl241",
+          "price": 37100,
+          "companyId": "cddfa038-823b-43b1-b18d-395731881077",
+          "info": {
+            "stops": [],
+            "origin": "EKT",
+            "dateEnd": 1655436602819,
+            "duration": 60000,
+            "dateStart": 1655436542819,
+            "destination": "PTB"
           }
         }
       ]
